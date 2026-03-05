@@ -1,0 +1,22 @@
+{
+  "name": "repo-analyzer",
+  "version": "1.0.0",
+  "description": "A comprehensive repository analyzer that provides metrics on code complexity, LOC, classes/modules, and API usage",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "analyze": "node index.js",
+    "batch": "node batch-analyze.js"
+  },
+  "keywords": [
+    "code-analysis",
+    "repository",
+    "metrics",
+    "complexity"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^10.3.10"
+  }
+}

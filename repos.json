@@ -1,0 +1,48 @@
+{
+  "repositories": [
+    {
+      "path": "../open-zaak",
+      "name": "Openzaak"
+    },
+    {
+      "path": "../open-klant",
+      "name": "Openklant"
+    },
+    {
+      "path": "../objects-api",
+      "name": "Objectenregister"
+    },
+    {
+      "path": "../objecttypes-api",
+      "name": "Objecttypenregister"
+    },
+    {
+      "path": "../GPP-publicatiebank",
+      "name": "GPP-publicatiebank"
+    },
+    {
+      "path": "../open-fsc",
+      "name": "Open FSC"
+    },
+    {
+      "path": "../open-notificaties",
+      "name": "OpenNotificaties"
+    },
+    {
+      "path": "../vng-selectielijst",
+      "name": "VNG Selectielijst"
+    },
+    {
+      "path": "../referentielijsten",
+      "name": "Referentielijsten"
+    },
+    { 
+      "path": "../open-product",
+      "name": "OpenProduct"
+    },
+    {
+      "path": "../open-forms",
+      "name": "OpenFormulieren"
+    }
+  ]
+}

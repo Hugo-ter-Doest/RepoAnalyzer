@@ -1,0 +1,690 @@
+{
+  "timestamp": "2026-03-05T22:33:50.037Z",
+  "totalRepositories": 11,
+  "repositories": [
+    {
+      "name": "Openzaak",
+      "path": "../open-zaak",
+      "status": "success",
+      "analysis": {
+        "version": "1.27.0",
+        "linesOfCode": 322406,
+        "codeLines": 284985,
+        "commentLines": 8828,
+        "blankLines": 28593,
+        "classes": 1653,
+        "classesAndModules": 2767,
+        "externalLibrariesAccessed": 5970,
+        "uniqueExternalLibraries": 116,
+        "publicMethods": 3966,
+        "complexityRating": "⭐⭐ Moderate (Reasonably maintainable)",
+        "avgComplexity": 3.3015427769985974,
+        "maxComplexity": 49,
+        "totalFunctions": 4278,
+        "filesAnalyzed": 1114,
+        "languageBreakdown": {
+          "javascript": 1777,
+          "python": 154745,
+          "yaml": 145301,
+          "json": 17279,
+          "html": 3304
+        },
+        "code": {
+          "linesOfCode": 156522,
+          "codeLines": 121514,
+          "commentLines": 8694,
+          "blankLines": 26314,
+          "classes": 1653,
+          "files": 939,
+          "publicMethods": 3966,
+          "totalFunctions": 4278,
+          "avgComplexity": 3.3015427769985974,
+          "maxComplexity": 49,
+          "complexityRating": "⭐⭐ Moderate (Reasonably maintainable)",
+          "languageBreakdown": {
+            "javascript": 1777,
+            "python": 154745
+          },
+          "externalLibrariesAccessed": 5970,
+          "uniqueExternalLibraries": 116
+        },
+        "specifications": {
+          "linesOfCode": 165884,
+          "codeLines": 163471,
+          "commentLines": 134,
+          "blankLines": 2279,
+          "files": 175,
+          "languageBreakdown": {
+            "yaml": 145301,
+            "json": 17279,
+            "html": 3304
+          }
+        }
+      }
+    },
+    {
+      "name": "Openklant",
+      "path": "../open-klant",
+      "status": "success",
+      "analysis": {
+        "version": "2.15.0",
+        "linesOfCode": 120181,
+        "codeLines": 112889,
+        "commentLines": 1216,
+        "blankLines": 6076,
+        "classes": 425,
+        "classesAndModules": 827,
+        "externalLibrariesAccessed": 1146,
+        "uniqueExternalLibraries": 72,
+        "publicMethods": 823,
+        "complexityRating": "⭐⭐ Moderate (Reasonably maintainable)",
+        "avgComplexity": 2.7948717948717947,
+        "maxComplexity": 62,
+        "totalFunctions": 897,
+        "filesAnalyzed": 402,
+        "languageBreakdown": {
+          "javascript": 211,
+          "python": 39629,
+          "json": 67803,
+          "yaml": 11976,
+          "css": 32,
+          "html": 530
+        },
+        "code": {
+          "linesOfCode": 39840,
+          "codeLines": 33013,
+          "commentLines": 1120,
+          "blankLines": 5707,
+          "classes": 425,
+          "files": 291,
+          "publicMethods": 823,
+          "totalFunctions": 897,
+          "avgComplexity": 2.7948717948717947,
+          "maxComplexity": 62,
+          "complexityRating": "⭐⭐ Moderate (Reasonably maintainable)",
+          "languageBreakdown": {
+            "javascript": 211,
+            "python": 39629
+          },
+          "externalLibrariesAccessed": 1146,
+          "uniqueExternalLibraries": 72
+        },
+        "specifications": {
+          "linesOfCode": 80341,
+          "codeLines": 79876,
+          "commentLines": 96,
+          "blankLines": 369,
+          "files": 111,
+          "languageBreakdown": {
+            "json": 67803,
+            "yaml": 11976,
+            "css": 32,
+            "html": 530
+          }
+        }
+      }
+    },
+    {
+      "name": "Objectenregister",
+      "path": "../objects-api",
+      "status": "success",
+      "analysis": {
+        "version": "3.6.0",
+        "linesOfCode": 44688,
+        "codeLines": 39846,
+        "commentLines": 1028,
+        "blankLines": 3814,
+        "classes": 248,
+        "classesAndModules": 540,
+        "externalLibrariesAccessed": 887,
+        "uniqueExternalLibraries": 69,
+        "publicMethods": 565,
+        "complexityRating": "⭐⭐ Moderate (Reasonably maintainable)",
+        "avgComplexity": 2.665557404326123,
+        "maxComplexity": 24,
+        "totalFunctions": 601,
+        "filesAnalyzed": 292,
+        "languageBreakdown": {
+          "javascript": 610,
+          "python": 18289,
+          "yaml": 6085,
+          "json": 18963,
+          "css": 30,
+          "html": 711
+        },
+        "code": {
+          "linesOfCode": 18899,
+          "codeLines": 14427,
+          "commentLines": 927,
+          "blankLines": 3545,
+          "classes": 248,
+          "files": 234,
+          "publicMethods": 565,
+          "totalFunctions": 601,
+          "avgComplexity": 2.665557404326123,
+          "maxComplexity": 24,
+          "complexityRating": "⭐⭐ Moderate (Reasonably maintainable)",
+          "languageBreakdown": {
+            "javascript": 610,
+            "python": 18289
+          },
+          "externalLibrariesAccessed": 887,
+          "uniqueExternalLibraries": 69
+        },
+        "specifications": {
+          "linesOfCode": 25789,
+          "codeLines": 25419,
+          "commentLines": 101,
+          "blankLines": 269,
+          "files": 58,
+          "languageBreakdown": {
+            "yaml": 6085,
+            "json": 18963,
+            "css": 30,
+            "html": 711
+          }
+        }
+      }
+    },
+    {
+      "name": "Objecttypenregister",
+      "path": "../objecttypes-api",
+      "status": "success",
+      "analysis": {
+        "version": "3.4.1",
+        "linesOfCode": 24486,
+        "codeLines": 22696,
+        "commentLines": 359,
+        "blankLines": 1431,
+        "classes": 114,
+        "classesAndModules": 292,
+        "externalLibrariesAccessed": 392,
+        "uniqueExternalLibraries": 45,
+        "publicMethods": 169,
+        "complexityRating": "⭐ Low (Simple, easy to maintain)",
+        "avgComplexity": 2.0444444444444443,
+        "maxComplexity": 11,
+        "totalFunctions": 180,
+        "filesAnalyzed": 178,
+        "languageBreakdown": {
+          "javascript": 224,
+          "python": 6234,
+          "yaml": 2488,
+          "json": 15028,
+          "html": 512
+        },
+        "code": {
+          "linesOfCode": 6458,
+          "codeLines": 4920,
+          "commentLines": 285,
+          "blankLines": 1253,
+          "classes": 114,
+          "files": 141,
+          "publicMethods": 169,
+          "totalFunctions": 180,
+          "avgComplexity": 2.0444444444444443,
+          "maxComplexity": 11,
+          "complexityRating": "⭐ Low (Simple, easy to maintain)",
+          "languageBreakdown": {
+            "javascript": 224,
+            "python": 6234
+          },
+          "externalLibrariesAccessed": 392,
+          "uniqueExternalLibraries": 45
+        },
+        "specifications": {
+          "linesOfCode": 18028,
+          "codeLines": 17776,
+          "commentLines": 74,
+          "blankLines": 178,
+          "files": 37,
+          "languageBreakdown": {
+            "yaml": 2488,
+            "json": 15028,
+            "html": 512
+          }
+        }
+      }
+    },
+    {
+      "name": "GPP-publicatiebank",
+      "path": "../GPP-publicatiebank",
+      "status": "success",
+      "analysis": {
+        "version": "2.1.0-rc.0",
+        "linesOfCode": 274057,
+        "codeLines": 265803,
+        "commentLines": 1762,
+        "blankLines": 6492,
+        "classes": 348,
+        "classesAndModules": 757,
+        "externalLibrariesAccessed": 1435,
+        "uniqueExternalLibraries": 79,
+        "publicMethods": 756,
+        "complexityRating": "⭐⭐ Moderate (Reasonably maintainable)",
+        "avgComplexity": 3.2996300863131935,
+        "maxComplexity": 37,
+        "totalFunctions": 811,
+        "filesAnalyzed": 409,
+        "languageBreakdown": {
+          "javascript": 16,
+          "python": 36178,
+          "json": 18682,
+          "yaml": 218192,
+          "css": 31,
+          "html": 958
+        },
+        "code": {
+          "linesOfCode": 36194,
+          "codeLines": 28464,
+          "commentLines": 1712,
+          "blankLines": 6018,
+          "classes": 348,
+          "files": 290,
+          "publicMethods": 756,
+          "totalFunctions": 811,
+          "avgComplexity": 3.2996300863131935,
+          "maxComplexity": 37,
+          "complexityRating": "⭐⭐ Moderate (Reasonably maintainable)",
+          "languageBreakdown": {
+            "javascript": 16,
+            "python": 36178
+          },
+          "externalLibrariesAccessed": 1435,
+          "uniqueExternalLibraries": 79
+        },
+        "specifications": {
+          "linesOfCode": 237863,
+          "codeLines": 237339,
+          "commentLines": 50,
+          "blankLines": 474,
+          "files": 119,
+          "languageBreakdown": {
+            "json": 18682,
+            "yaml": 218192,
+            "css": 31,
+            "html": 958
+          }
+        }
+      }
+    },
+    {
+      "name": "Open FSC",
+      "path": "../open-fsc",
+      "status": "success",
+      "analysis": {
+        "version": "0.0.0",
+        "linesOfCode": 253675,
+        "codeLines": 212450,
+        "commentLines": 9351,
+        "blankLines": 31874,
+        "classes": 2425,
+        "classesAndModules": 3891,
+        "externalLibrariesAccessed": 6482,
+        "uniqueExternalLibraries": 108,
+        "publicMethods": 1129,
+        "complexityRating": "⭐⭐ Moderate (Reasonably maintainable)",
+        "avgComplexity": 4.86899918633035,
+        "maxComplexity": 71,
+        "totalFunctions": 2458,
+        "filesAnalyzed": 1466,
+        "languageBreakdown": {
+          "go": 176195,
+          "javascript": 629,
+          "json": 48362,
+          "yaml": 20894,
+          "html": 7514,
+          "css": 81
+        },
+        "code": {
+          "linesOfCode": 176824,
+          "codeLines": 138454,
+          "commentLines": 8031,
+          "blankLines": 30339,
+          "classes": 2425,
+          "files": 1072,
+          "publicMethods": 1129,
+          "totalFunctions": 2458,
+          "avgComplexity": 4.86899918633035,
+          "maxComplexity": 71,
+          "complexityRating": "⭐⭐ Moderate (Reasonably maintainable)",
+          "languageBreakdown": {
+            "go": 176195,
+            "javascript": 629
+          },
+          "externalLibrariesAccessed": 6482,
+          "uniqueExternalLibraries": 108
+        },
+        "specifications": {
+          "linesOfCode": 76851,
+          "codeLines": 73996,
+          "commentLines": 1320,
+          "blankLines": 1535,
+          "files": 394,
+          "languageBreakdown": {
+            "json": 48362,
+            "yaml": 20894,
+            "html": 7514,
+            "css": 81
+          }
+        }
+      }
+    },
+    {
+      "name": "OpenNotificaties",
+      "path": "../open-notificaties",
+      "status": "success",
+      "analysis": {
+        "version": "1.15.0",
+        "linesOfCode": 28468,
+        "codeLines": 25093,
+        "commentLines": 927,
+        "blankLines": 2448,
+        "classes": 193,
+        "classesAndModules": 385,
+        "externalLibrariesAccessed": 548,
+        "uniqueExternalLibraries": 58,
+        "publicMethods": 279,
+        "complexityRating": "⭐⭐ Moderate (Reasonably maintainable)",
+        "avgComplexity": 3.452054794520548,
+        "maxComplexity": 35,
+        "totalFunctions": 292,
+        "filesAnalyzed": 192,
+        "languageBreakdown": {
+          "javascript": 10,
+          "python": 12205,
+          "yaml": 6128,
+          "json": 9596,
+          "html": 529
+        },
+        "code": {
+          "linesOfCode": 12215,
+          "codeLines": 9207,
+          "commentLines": 836,
+          "blankLines": 2172,
+          "classes": 193,
+          "files": 147,
+          "publicMethods": 279,
+          "totalFunctions": 292,
+          "avgComplexity": 3.452054794520548,
+          "maxComplexity": 35,
+          "complexityRating": "⭐⭐ Moderate (Reasonably maintainable)",
+          "languageBreakdown": {
+            "javascript": 10,
+            "python": 12205
+          },
+          "externalLibrariesAccessed": 548,
+          "uniqueExternalLibraries": 58
+        },
+        "specifications": {
+          "linesOfCode": 16253,
+          "codeLines": 15886,
+          "commentLines": 91,
+          "blankLines": 276,
+          "files": 45,
+          "languageBreakdown": {
+            "yaml": 6128,
+            "json": 9596,
+            "html": 529
+          }
+        }
+      }
+    },
+    {
+      "name": "VNG Selectielijst",
+      "path": "../vng-selectielijst",
+      "status": "success",
+      "analysis": {
+        "version": "1.0.5",
+        "linesOfCode": 19071,
+        "codeLines": 17965,
+        "commentLines": 348,
+        "blankLines": 758,
+        "classes": 46,
+        "classesAndModules": 139,
+        "externalLibrariesAccessed": 147,
+        "uniqueExternalLibraries": 20,
+        "publicMethods": 63,
+        "complexityRating": "⭐⭐ Moderate (Reasonably maintainable)",
+        "avgComplexity": 5.0588235294117645,
+        "maxComplexity": 19,
+        "totalFunctions": 68,
+        "filesAnalyzed": 93,
+        "languageBreakdown": {
+          "python": 3199,
+          "json": 14114,
+          "yaml": 1193,
+          "html": 563,
+          "css": 2
+        },
+        "code": {
+          "linesOfCode": 3199,
+          "codeLines": 2327,
+          "commentLines": 313,
+          "blankLines": 559,
+          "classes": 46,
+          "files": 66,
+          "publicMethods": 63,
+          "totalFunctions": 68,
+          "avgComplexity": 5.0588235294117645,
+          "maxComplexity": 19,
+          "complexityRating": "⭐⭐ Moderate (Reasonably maintainable)",
+          "languageBreakdown": {
+            "python": 3199
+          },
+          "externalLibrariesAccessed": 147,
+          "uniqueExternalLibraries": 20
+        },
+        "specifications": {
+          "linesOfCode": 15872,
+          "codeLines": 15638,
+          "commentLines": 35,
+          "blankLines": 199,
+          "files": 27,
+          "languageBreakdown": {
+            "json": 14114,
+            "yaml": 1193,
+            "html": 563,
+            "css": 2
+          }
+        }
+      }
+    },
+    {
+      "name": "Referentielijsten",
+      "path": "../referentielijsten",
+      "status": "success",
+      "analysis": {
+        "version": "0.7.1",
+        "linesOfCode": 18975,
+        "codeLines": 17651,
+        "commentLines": 436,
+        "blankLines": 888,
+        "classes": 62,
+        "classesAndModules": 175,
+        "externalLibrariesAccessed": 261,
+        "uniqueExternalLibraries": 40,
+        "publicMethods": 104,
+        "complexityRating": "⭐ Low (Simple, easy to maintain)",
+        "avgComplexity": 1.5913043478260869,
+        "maxComplexity": 11,
+        "totalFunctions": 115,
+        "filesAnalyzed": 113,
+        "languageBreakdown": {
+          "javascript": 253,
+          "python": 3621,
+          "json": 12999,
+          "yaml": 1668,
+          "css": 30,
+          "html": 404
+        },
+        "code": {
+          "linesOfCode": 3874,
+          "codeLines": 2758,
+          "commentLines": 360,
+          "blankLines": 756,
+          "classes": 62,
+          "files": 84,
+          "publicMethods": 104,
+          "totalFunctions": 115,
+          "avgComplexity": 1.5913043478260869,
+          "maxComplexity": 11,
+          "complexityRating": "⭐ Low (Simple, easy to maintain)",
+          "languageBreakdown": {
+            "javascript": 253,
+            "python": 3621
+          },
+          "externalLibrariesAccessed": 261,
+          "uniqueExternalLibraries": 40
+        },
+        "specifications": {
+          "linesOfCode": 15101,
+          "codeLines": 14893,
+          "commentLines": 76,
+          "blankLines": 132,
+          "files": 29,
+          "languageBreakdown": {
+            "json": 12999,
+            "yaml": 1668,
+            "css": 30,
+            "html": 404
+          }
+        }
+      }
+    },
+    {
+      "name": "OpenProduct",
+      "path": "../open-product",
+      "status": "success",
+      "analysis": {
+        "version": "1.6.0",
+        "linesOfCode": 60657,
+        "codeLines": 53752,
+        "commentLines": 1123,
+        "blankLines": 5782,
+        "classes": 397,
+        "classesAndModules": 770,
+        "externalLibrariesAccessed": 1561,
+        "uniqueExternalLibraries": 77,
+        "publicMethods": 950,
+        "complexityRating": "⭐⭐ Moderate (Reasonably maintainable)",
+        "avgComplexity": 2.4661508704061896,
+        "maxComplexity": 39,
+        "totalFunctions": 1034,
+        "filesAnalyzed": 373,
+        "languageBreakdown": {
+          "javascript": 209,
+          "python": 30876,
+          "json": 14708,
+          "yaml": 14294,
+          "css": 71,
+          "html": 499
+        },
+        "code": {
+          "linesOfCode": 31085,
+          "codeLines": 24570,
+          "commentLines": 1008,
+          "blankLines": 5507,
+          "classes": 397,
+          "files": 327,
+          "publicMethods": 950,
+          "totalFunctions": 1034,
+          "avgComplexity": 2.4661508704061896,
+          "maxComplexity": 39,
+          "complexityRating": "⭐⭐ Moderate (Reasonably maintainable)",
+          "languageBreakdown": {
+            "javascript": 209,
+            "python": 30876
+          },
+          "externalLibrariesAccessed": 1561,
+          "uniqueExternalLibraries": 77
+        },
+        "specifications": {
+          "linesOfCode": 29572,
+          "codeLines": 29182,
+          "commentLines": 115,
+          "blankLines": 275,
+          "files": 46,
+          "languageBreakdown": {
+            "json": 14708,
+            "yaml": 14294,
+            "css": 71,
+            "html": 499
+          }
+        }
+      }
+    },
+    {
+      "name": "OpenFormulieren",
+      "path": "../open-forms",
+      "status": "success",
+      "analysis": {
+        "version": "3.5.0-alpha.1",
+        "linesOfCode": 526001,
+        "codeLines": 451932,
+        "commentLines": 28382,
+        "blankLines": 45687,
+        "classes": 2895,
+        "classesAndModules": 6029,
+        "externalLibrariesAccessed": 13389,
+        "uniqueExternalLibraries": 225,
+        "publicMethods": 6099,
+        "complexityRating": "⭐⭐ Moderate (Reasonably maintainable)",
+        "avgComplexity": 3.2807153965785383,
+        "maxComplexity": 128,
+        "totalFunctions": 6430,
+        "filesAnalyzed": 3134,
+        "languageBreakdown": {
+          "javascript": 41768,
+          "python": 262797,
+          "yaml": 133561,
+          "json": 81783,
+          "css": 30,
+          "xml": 2769,
+          "html": 3293
+        },
+        "code": {
+          "linesOfCode": 304565,
+          "codeLines": 232684,
+          "commentLines": 27950,
+          "blankLines": 43931,
+          "classes": 2895,
+          "files": 2421,
+          "publicMethods": 6099,
+          "totalFunctions": 6430,
+          "avgComplexity": 3.2807153965785383,
+          "maxComplexity": 128,
+          "complexityRating": "⭐⭐ Moderate (Reasonably maintainable)",
+          "languageBreakdown": {
+            "javascript": 41768,
+            "python": 262797
+          },
+          "externalLibrariesAccessed": 13389,
+          "uniqueExternalLibraries": 225
+        },
+        "specifications": {
+          "linesOfCode": 221436,
+          "codeLines": 219248,
+          "commentLines": 432,
+          "blankLines": 1756,
+          "files": 713,
+          "languageBreakdown": {
+            "yaml": 133561,
+            "json": 81783,
+            "css": 30,
+            "xml": 2769,
+            "html": 3293
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "totalLinesOfCode": 1692665,
+    "totalClasses": 8806,
+    "totalFilesAnalyzed": 7766,
+    "totalFunctions": 17164,
+    "totalDependencies": 909,
+    "averageComplexity": "3.17"
+  }
+}

@@ -1,0 +1,12 @@
+node_modules/
+*.log
+.DS_Store
+.env
+dist/
+build/
+coverage/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+repo-analysis.json
