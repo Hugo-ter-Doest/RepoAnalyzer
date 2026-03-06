@@ -33,6 +33,20 @@ async function main() {
     console.log(`\n   Complexity: ${results.code.complexityRating}`);
     console.log(`   - Average: ${results.code.avgComplexity.toFixed(2)}`);
     console.log(`   - Maximum: ${results.code.maxComplexity}`);
+    
+    // Display API resources
+    if (results.code.apiResources && results.code.apiResources.uniqueCount > 0) {
+      console.log(`\n   🔌 API Resources: ${results.code.apiResources.uniqueCount} unique`);
+
+      const apiResources = results.code.apiResources;
+      console.log(`      Full CRUD:  ${apiResources.fullCrudCount.toString().padStart(4)}`);
+      console.log(`      Read-only:  ${apiResources.readOnlyCount.toString().padStart(4)}`);
+      if (apiResources.partialCount > 0) console.log(`      Partial:    ${apiResources.partialCount.toString().padStart(4)}`);
+      if (apiResources.createOnlyCount > 0) console.log(`      Create-only: ${apiResources.createOnlyCount.toString().padStart(3)}`);
+      if (apiResources.updateOnlyCount > 0) console.log(`      Update-only: ${apiResources.updateOnlyCount.toString().padStart(3)}`);
+      if (apiResources.deleteOnlyCount > 0) console.log(`      Delete-only: ${apiResources.deleteOnlyCount.toString().padStart(3)}`);
+    }
+    
     console.log(`\n   Languages (by LOC):`);
     Object.entries(results.code.languageBreakdown)
       .sort((a, b) => b[1] - a[1])

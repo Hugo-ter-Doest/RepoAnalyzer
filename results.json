@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-03-05T22:33:50.037Z",
-  "totalRepositories": 11,
+  "timestamp": "2026-03-06T11:20:29.083Z",
+  "totalRepositories": 15,
   "repositories": [
     {
       "name": "Openzaak",
@@ -8,27 +8,6 @@
       "status": "success",
       "analysis": {
         "version": "1.27.0",
-        "linesOfCode": 322406,
-        "codeLines": 284985,
-        "commentLines": 8828,
-        "blankLines": 28593,
-        "classes": 1653,
-        "classesAndModules": 2767,
-        "externalLibrariesAccessed": 5970,
-        "uniqueExternalLibraries": 116,
-        "publicMethods": 3966,
-        "complexityRating": "⭐⭐ Moderate (Reasonably maintainable)",
-        "avgComplexity": 3.3015427769985974,
-        "maxComplexity": 49,
-        "totalFunctions": 4278,
-        "filesAnalyzed": 1114,
-        "languageBreakdown": {
-          "javascript": 1777,
-          "python": 154745,
-          "yaml": 145301,
-          "json": 17279,
-          "html": 3304
-        },
         "code": {
           "linesOfCode": 156522,
           "codeLines": 121514,
@@ -46,7 +25,16 @@
             "python": 154745
           },
           "externalLibrariesAccessed": 5970,
-          "uniqueExternalLibraries": 116
+          "uniqueExternalLibraries": 116,
+          "apiResources": {
+            "uniqueCount": 125,
+            "fullCrudCount": 51,
+            "readOnlyCount": 74,
+            "createOnlyCount": 0,
+            "updateOnlyCount": 0,
+            "deleteOnlyCount": 0,
+            "partialCount": 0
+          }
         },
         "specifications": {
           "linesOfCode": 165884,
@@ -68,28 +56,6 @@
       "status": "success",
       "analysis": {
         "version": "2.15.0",
-        "linesOfCode": 120181,
-        "codeLines": 112889,
-        "commentLines": 1216,
-        "blankLines": 6076,
-        "classes": 425,
-        "classesAndModules": 827,
-        "externalLibrariesAccessed": 1146,
-        "uniqueExternalLibraries": 72,
-        "publicMethods": 823,
-        "complexityRating": "⭐⭐ Moderate (Reasonably maintainable)",
-        "avgComplexity": 2.7948717948717947,
-        "maxComplexity": 62,
-        "totalFunctions": 897,
-        "filesAnalyzed": 402,
-        "languageBreakdown": {
-          "javascript": 211,
-          "python": 39629,
-          "json": 67803,
-          "yaml": 11976,
-          "css": 32,
-          "html": 530
-        },
         "code": {
           "linesOfCode": 39840,
           "codeLines": 33013,
@@ -107,7 +73,16 @@
             "python": 39629
           },
           "externalLibrariesAccessed": 1146,
-          "uniqueExternalLibraries": 72
+          "uniqueExternalLibraries": 72,
+          "apiResources": {
+            "uniqueCount": 23,
+            "fullCrudCount": 17,
+            "readOnlyCount": 6,
+            "createOnlyCount": 0,
+            "updateOnlyCount": 0,
+            "deleteOnlyCount": 0,
+            "partialCount": 0
+          }
         },
         "specifications": {
           "linesOfCode": 80341,
@@ -130,28 +105,6 @@
       "status": "success",
       "analysis": {
         "version": "3.6.0",
-        "linesOfCode": 44688,
-        "codeLines": 39846,
-        "commentLines": 1028,
-        "blankLines": 3814,
-        "classes": 248,
-        "classesAndModules": 540,
-        "externalLibrariesAccessed": 887,
-        "uniqueExternalLibraries": 69,
-        "publicMethods": 565,
-        "complexityRating": "⭐⭐ Moderate (Reasonably maintainable)",
-        "avgComplexity": 2.665557404326123,
-        "maxComplexity": 24,
-        "totalFunctions": 601,
-        "filesAnalyzed": 292,
-        "languageBreakdown": {
-          "javascript": 610,
-          "python": 18289,
-          "yaml": 6085,
-          "json": 18963,
-          "css": 30,
-          "html": 711
-        },
         "code": {
           "linesOfCode": 18899,
           "codeLines": 14427,
@@ -169,7 +122,16 @@
             "python": 18289
           },
           "externalLibrariesAccessed": 887,
-          "uniqueExternalLibraries": 69
+          "uniqueExternalLibraries": 69,
+          "apiResources": {
+            "uniqueCount": 9,
+            "fullCrudCount": 5,
+            "readOnlyCount": 4,
+            "createOnlyCount": 0,
+            "updateOnlyCount": 0,
+            "deleteOnlyCount": 0,
+            "partialCount": 0
+          }
         },
         "specifications": {
           "linesOfCode": 25789,
@@ -192,27 +154,6 @@
       "status": "success",
       "analysis": {
         "version": "3.4.1",
-        "linesOfCode": 24486,
-        "codeLines": 22696,
-        "commentLines": 359,
-        "blankLines": 1431,
-        "classes": 114,
-        "classesAndModules": 292,
-        "externalLibrariesAccessed": 392,
-        "uniqueExternalLibraries": 45,
-        "publicMethods": 169,
-        "complexityRating": "⭐ Low (Simple, easy to maintain)",
-        "avgComplexity": 2.0444444444444443,
-        "maxComplexity": 11,
-        "totalFunctions": 180,
-        "filesAnalyzed": 178,
-        "languageBreakdown": {
-          "javascript": 224,
-          "python": 6234,
-          "yaml": 2488,
-          "json": 15028,
-          "html": 512
-        },
         "code": {
           "linesOfCode": 6458,
           "codeLines": 4920,
@@ -230,7 +171,16 @@
             "python": 6234
           },
           "externalLibrariesAccessed": 392,
-          "uniqueExternalLibraries": 45
+          "uniqueExternalLibraries": 45,
+          "apiResources": {
+            "uniqueCount": 7,
+            "fullCrudCount": 3,
+            "readOnlyCount": 4,
+            "createOnlyCount": 0,
+            "updateOnlyCount": 0,
+            "deleteOnlyCount": 0,
+            "partialCount": 0
+          }
         },
         "specifications": {
           "linesOfCode": 18028,
@@ -252,28 +202,6 @@
       "status": "success",
       "analysis": {
         "version": "2.1.0-rc.0",
-        "linesOfCode": 274057,
-        "codeLines": 265803,
-        "commentLines": 1762,
-        "blankLines": 6492,
-        "classes": 348,
-        "classesAndModules": 757,
-        "externalLibrariesAccessed": 1435,
-        "uniqueExternalLibraries": 79,
-        "publicMethods": 756,
-        "complexityRating": "⭐⭐ Moderate (Reasonably maintainable)",
-        "avgComplexity": 3.2996300863131935,
-        "maxComplexity": 37,
-        "totalFunctions": 811,
-        "filesAnalyzed": 409,
-        "languageBreakdown": {
-          "javascript": 16,
-          "python": 36178,
-          "json": 18682,
-          "yaml": 218192,
-          "css": 31,
-          "html": 958
-        },
         "code": {
           "linesOfCode": 36194,
           "codeLines": 28464,
@@ -291,7 +219,16 @@
             "python": 36178
           },
           "externalLibrariesAccessed": 1435,
-          "uniqueExternalLibraries": 79
+          "uniqueExternalLibraries": 79,
+          "apiResources": {
+            "uniqueCount": 19,
+            "fullCrudCount": 9,
+            "readOnlyCount": 10,
+            "createOnlyCount": 0,
+            "updateOnlyCount": 0,
+            "deleteOnlyCount": 0,
+            "partialCount": 0
+          }
         },
         "specifications": {
           "linesOfCode": 237863,
@@ -314,28 +251,6 @@
       "status": "success",
       "analysis": {
         "version": "0.0.0",
-        "linesOfCode": 253675,
-        "codeLines": 212450,
-        "commentLines": 9351,
-        "blankLines": 31874,
-        "classes": 2425,
-        "classesAndModules": 3891,
-        "externalLibrariesAccessed": 6482,
-        "uniqueExternalLibraries": 108,
-        "publicMethods": 1129,
-        "complexityRating": "⭐⭐ Moderate (Reasonably maintainable)",
-        "avgComplexity": 4.86899918633035,
-        "maxComplexity": 71,
-        "totalFunctions": 2458,
-        "filesAnalyzed": 1466,
-        "languageBreakdown": {
-          "go": 176195,
-          "javascript": 629,
-          "json": 48362,
-          "yaml": 20894,
-          "html": 7514,
-          "css": 81
-        },
         "code": {
           "linesOfCode": 176824,
           "codeLines": 138454,
@@ -353,7 +268,16 @@
             "javascript": 629
           },
           "externalLibrariesAccessed": 6482,
-          "uniqueExternalLibraries": 108
+          "uniqueExternalLibraries": 108,
+          "apiResources": {
+            "uniqueCount": 39,
+            "fullCrudCount": 3,
+            "readOnlyCount": 27,
+            "createOnlyCount": 2,
+            "updateOnlyCount": 1,
+            "deleteOnlyCount": 0,
+            "partialCount": 9
+          }
         },
         "specifications": {
           "linesOfCode": 76851,
@@ -376,27 +300,6 @@
       "status": "success",
       "analysis": {
         "version": "1.15.0",
-        "linesOfCode": 28468,
-        "codeLines": 25093,
-        "commentLines": 927,
-        "blankLines": 2448,
-        "classes": 193,
-        "classesAndModules": 385,
-        "externalLibrariesAccessed": 548,
-        "uniqueExternalLibraries": 58,
-        "publicMethods": 279,
-        "complexityRating": "⭐⭐ Moderate (Reasonably maintainable)",
-        "avgComplexity": 3.452054794520548,
-        "maxComplexity": 35,
-        "totalFunctions": 292,
-        "filesAnalyzed": 192,
-        "languageBreakdown": {
-          "javascript": 10,
-          "python": 12205,
-          "yaml": 6128,
-          "json": 9596,
-          "html": 529
-        },
         "code": {
           "linesOfCode": 12215,
           "codeLines": 9207,
@@ -414,7 +317,16 @@
             "python": 12205
           },
           "externalLibrariesAccessed": 548,
-          "uniqueExternalLibraries": 58
+          "uniqueExternalLibraries": 58,
+          "apiResources": {
+            "uniqueCount": 17,
+            "fullCrudCount": 3,
+            "readOnlyCount": 14,
+            "createOnlyCount": 0,
+            "updateOnlyCount": 0,
+            "deleteOnlyCount": 0,
+            "partialCount": 0
+          }
         },
         "specifications": {
           "linesOfCode": 16253,
@@ -436,27 +348,6 @@
       "status": "success",
       "analysis": {
         "version": "1.0.5",
-        "linesOfCode": 19071,
-        "codeLines": 17965,
-        "commentLines": 348,
-        "blankLines": 758,
-        "classes": 46,
-        "classesAndModules": 139,
-        "externalLibrariesAccessed": 147,
-        "uniqueExternalLibraries": 20,
-        "publicMethods": 63,
-        "complexityRating": "⭐⭐ Moderate (Reasonably maintainable)",
-        "avgComplexity": 5.0588235294117645,
-        "maxComplexity": 19,
-        "totalFunctions": 68,
-        "filesAnalyzed": 93,
-        "languageBreakdown": {
-          "python": 3199,
-          "json": 14114,
-          "yaml": 1193,
-          "html": 563,
-          "css": 2
-        },
         "code": {
           "linesOfCode": 3199,
           "codeLines": 2327,
@@ -473,7 +364,16 @@
             "python": 3199
           },
           "externalLibrariesAccessed": 147,
-          "uniqueExternalLibraries": 20
+          "uniqueExternalLibraries": 20,
+          "apiResources": {
+            "uniqueCount": 6,
+            "fullCrudCount": 3,
+            "readOnlyCount": 3,
+            "createOnlyCount": 0,
+            "updateOnlyCount": 0,
+            "deleteOnlyCount": 0,
+            "partialCount": 0
+          }
         },
         "specifications": {
           "linesOfCode": 15872,
@@ -496,28 +396,6 @@
       "status": "success",
       "analysis": {
         "version": "0.7.1",
-        "linesOfCode": 18975,
-        "codeLines": 17651,
-        "commentLines": 436,
-        "blankLines": 888,
-        "classes": 62,
-        "classesAndModules": 175,
-        "externalLibrariesAccessed": 261,
-        "uniqueExternalLibraries": 40,
-        "publicMethods": 104,
-        "complexityRating": "⭐ Low (Simple, easy to maintain)",
-        "avgComplexity": 1.5913043478260869,
-        "maxComplexity": 11,
-        "totalFunctions": 115,
-        "filesAnalyzed": 113,
-        "languageBreakdown": {
-          "javascript": 253,
-          "python": 3621,
-          "json": 12999,
-          "yaml": 1668,
-          "css": 30,
-          "html": 404
-        },
         "code": {
           "linesOfCode": 3874,
           "codeLines": 2758,
@@ -535,7 +413,16 @@
             "python": 3621
           },
           "externalLibrariesAccessed": 261,
-          "uniqueExternalLibraries": 40
+          "uniqueExternalLibraries": 40,
+          "apiResources": {
+            "uniqueCount": 6,
+            "fullCrudCount": 2,
+            "readOnlyCount": 4,
+            "createOnlyCount": 0,
+            "updateOnlyCount": 0,
+            "deleteOnlyCount": 0,
+            "partialCount": 0
+          }
         },
         "specifications": {
           "linesOfCode": 15101,
@@ -558,28 +445,6 @@
       "status": "success",
       "analysis": {
         "version": "1.6.0",
-        "linesOfCode": 60657,
-        "codeLines": 53752,
-        "commentLines": 1123,
-        "blankLines": 5782,
-        "classes": 397,
-        "classesAndModules": 770,
-        "externalLibrariesAccessed": 1561,
-        "uniqueExternalLibraries": 77,
-        "publicMethods": 950,
-        "complexityRating": "⭐⭐ Moderate (Reasonably maintainable)",
-        "avgComplexity": 2.4661508704061896,
-        "maxComplexity": 39,
-        "totalFunctions": 1034,
-        "filesAnalyzed": 373,
-        "languageBreakdown": {
-          "javascript": 209,
-          "python": 30876,
-          "json": 14708,
-          "yaml": 14294,
-          "css": 71,
-          "html": 499
-        },
         "code": {
           "linesOfCode": 31085,
           "codeLines": 24570,
@@ -597,7 +462,16 @@
             "python": 30876
           },
           "externalLibrariesAccessed": 1561,
-          "uniqueExternalLibraries": 77
+          "uniqueExternalLibraries": 77,
+          "apiResources": {
+            "uniqueCount": 23,
+            "fullCrudCount": 17,
+            "readOnlyCount": 6,
+            "createOnlyCount": 0,
+            "updateOnlyCount": 0,
+            "deleteOnlyCount": 0,
+            "partialCount": 0
+          }
         },
         "specifications": {
           "linesOfCode": 29572,
@@ -620,29 +494,6 @@
       "status": "success",
       "analysis": {
         "version": "3.5.0-alpha.1",
-        "linesOfCode": 526001,
-        "codeLines": 451932,
-        "commentLines": 28382,
-        "blankLines": 45687,
-        "classes": 2895,
-        "classesAndModules": 6029,
-        "externalLibrariesAccessed": 13389,
-        "uniqueExternalLibraries": 225,
-        "publicMethods": 6099,
-        "complexityRating": "⭐⭐ Moderate (Reasonably maintainable)",
-        "avgComplexity": 3.2807153965785383,
-        "maxComplexity": 128,
-        "totalFunctions": 6430,
-        "filesAnalyzed": 3134,
-        "languageBreakdown": {
-          "javascript": 41768,
-          "python": 262797,
-          "yaml": 133561,
-          "json": 81783,
-          "css": 30,
-          "xml": 2769,
-          "html": 3293
-        },
         "code": {
           "linesOfCode": 304565,
           "codeLines": 232684,
@@ -660,7 +511,16 @@
             "python": 262797
           },
           "externalLibrariesAccessed": 13389,
-          "uniqueExternalLibraries": 225
+          "uniqueExternalLibraries": 225,
+          "apiResources": {
+            "uniqueCount": 77,
+            "fullCrudCount": 16,
+            "readOnlyCount": 61,
+            "createOnlyCount": 0,
+            "updateOnlyCount": 0,
+            "deleteOnlyCount": 0,
+            "partialCount": 0
+          }
         },
         "specifications": {
           "linesOfCode": 221436,
@@ -677,14 +537,211 @@
           }
         }
       }
+    },
+    {
+      "name": "Openregister",
+      "path": "../openregister",
+      "status": "success",
+      "analysis": {
+        "version": "1.0.0",
+        "code": {
+          "linesOfCode": 193701,
+          "codeLines": 109851,
+          "commentLines": 57026,
+          "blankLines": 26824,
+          "classes": 522,
+          "files": 454,
+          "publicMethods": 2377,
+          "totalFunctions": 3569,
+          "avgComplexity": 4.968231655889795,
+          "maxComplexity": 102,
+          "complexityRating": "⭐⭐⭐ Medium (Getting complex)",
+          "languageBreakdown": {
+            "javascript": 11865,
+            "python": 304,
+            "php": 177751,
+            "typescript": 3781
+          },
+          "externalLibrariesAccessed": 221,
+          "uniqueExternalLibraries": 24,
+          "apiResources": {
+            "uniqueCount": 0,
+            "fullCrudCount": 0,
+            "readOnlyCount": 0,
+            "createOnlyCount": 0,
+            "updateOnlyCount": 0,
+            "deleteOnlyCount": 0,
+            "partialCount": 0
+          }
+        },
+        "specifications": {
+          "linesOfCode": 765106,
+          "codeLines": 760529,
+          "commentLines": 3345,
+          "blankLines": 1232,
+          "files": 59,
+          "languageBreakdown": {
+            "json": 756119,
+            "xml": 6936,
+            "yaml": 573,
+            "css": 1478
+          }
+        }
+      }
+    },
+    {
+      "name": "GZAC Frontend",
+      "path": "../gzac-frontend-template",
+      "status": "success",
+      "analysis": {
+        "version": "1.0.0",
+        "code": {
+          "linesOfCode": 646,
+          "codeLines": 501,
+          "commentLines": 101,
+          "blankLines": 44,
+          "classes": 4,
+          "files": 14,
+          "publicMethods": 911,
+          "totalFunctions": 911,
+          "avgComplexity": 4.086717892425906,
+          "maxComplexity": 173,
+          "complexityRating": "⭐⭐ Moderate (Reasonably maintainable)",
+          "languageBreakdown": {
+            "typescript": 553,
+            "javascript": 93
+          },
+          "externalLibrariesAccessed": 91,
+          "uniqueExternalLibraries": 16,
+          "apiResources": {
+            "uniqueCount": 1,
+            "fullCrudCount": 0,
+            "readOnlyCount": 1,
+            "createOnlyCount": 0,
+            "updateOnlyCount": 0,
+            "deleteOnlyCount": 0,
+            "partialCount": 0
+          }
+        },
+        "specifications": {
+          "linesOfCode": 21331,
+          "codeLines": 21314,
+          "commentLines": 1,
+          "blankLines": 16,
+          "files": 15,
+          "languageBreakdown": {
+            "json": 21304,
+            "html": 27
+          }
+        }
+      }
+    },
+    {
+      "name": "GZAC Backend",
+      "path": "../gzac-backend-template",
+      "status": "success",
+      "analysis": {
+        "version": "unknown",
+        "code": {
+          "linesOfCode": 272,
+          "codeLines": 185,
+          "commentLines": 44,
+          "blankLines": 43,
+          "classes": 1,
+          "files": 5,
+          "publicMethods": 2,
+          "totalFunctions": 2,
+          "avgComplexity": 1.5,
+          "maxComplexity": 2,
+          "complexityRating": "⭐ Low (Simple, easy to maintain)",
+          "languageBreakdown": {
+            "kotlin": 272
+          },
+          "externalLibrariesAccessed": 9,
+          "uniqueExternalLibraries": 3,
+          "apiResources": {
+            "uniqueCount": 0,
+            "fullCrudCount": 0,
+            "readOnlyCount": 0,
+            "createOnlyCount": 0,
+            "updateOnlyCount": 0,
+            "deleteOnlyCount": 0,
+            "partialCount": 0
+          }
+        },
+        "specifications": {
+          "linesOfCode": 298,
+          "codeLines": 262,
+          "commentLines": 14,
+          "blankLines": 22,
+          "files": 5,
+          "languageBreakdown": {
+            "json": 14,
+            "xml": 71,
+            "yaml": 213
+          }
+        }
+      }
+    },
+    {
+      "name": "Valtimo",
+      "path": "../valtimo",
+      "status": "success",
+      "analysis": {
+        "version": "1.0.0",
+        "code": {
+          "linesOfCode": 459894,
+          "codeLines": 328500,
+          "commentLines": 77980,
+          "blankLines": 53414,
+          "classes": 4682,
+          "files": 5115,
+          "publicMethods": 9532,
+          "totalFunctions": 7846,
+          "avgComplexity": 1.8225847565638542,
+          "maxComplexity": 213,
+          "complexityRating": "⭐⭐ Moderate (Reasonably maintainable)",
+          "languageBreakdown": {
+            "javascript": 38085,
+            "typescript": 133235,
+            "kotlin": 219816,
+            "java": 68758
+          },
+          "externalLibrariesAccessed": 37352,
+          "uniqueExternalLibraries": 102,
+          "apiResources": {
+            "uniqueCount": 15,
+            "fullCrudCount": 4,
+            "readOnlyCount": 2,
+            "createOnlyCount": 1,
+            "updateOnlyCount": 0,
+            "deleteOnlyCount": 0,
+            "partialCount": 9
+          }
+        },
+        "specifications": {
+          "linesOfCode": 154179,
+          "codeLines": 134643,
+          "commentLines": 10647,
+          "blankLines": 8889,
+          "files": 1584,
+          "languageBreakdown": {
+            "yaml": 4931,
+            "json": 67651,
+            "xml": 15487,
+            "html": 34468,
+            "css": 31642
+          }
+        }
+      }
     }
   ],
   "summary": {
-    "totalLinesOfCode": 1692665,
-    "totalClasses": 8806,
-    "totalFilesAnalyzed": 7766,
-    "totalFunctions": 17164,
-    "totalDependencies": 909,
-    "averageComplexity": "3.17"
+    "totalLinesOfCode": 1444188,
+    "totalClasses": 14015,
+    "totalFilesAnalyzed": 15017,
+    "totalFunctions": 29492,
+    "totalDependencies": 1054,
+    "averageComplexity": "3.15"
   }
 }

@@ -77,13 +77,13 @@ async function main() {
         analysis: analyzeResults
       });
 
-      // Accumulate summary stats
-      results.summary.totalLinesOfCode += analyzeResults.linesOfCode;
-      results.summary.totalClasses += analyzeResults.classes;
-      results.summary.totalFilesAnalyzed += analyzeResults.filesAnalyzed;
-      results.summary.totalFunctions += (analyzeResults.totalFunctions ?? 0);
-      results.summary.totalDependencies += analyzeResults.uniqueExternalLibraries;
-      complexitySum += analyzeResults.avgComplexity;
+      // Accumulate summary stats (from nested code structure)
+      results.summary.totalLinesOfCode += analyzeResults.code.linesOfCode;
+      results.summary.totalClasses += analyzeResults.code.classes;
+      results.summary.totalFilesAnalyzed += analyzeResults.code.files + analyzeResults.specifications.files;
+      results.summary.totalFunctions += (analyzeResults.code.totalFunctions ?? 0);
+      results.summary.totalDependencies += analyzeResults.code.uniqueExternalLibraries;
+      complexitySum += analyzeResults.code.avgComplexity;
 
       completedCount++;
       console.log(`✅ ${repoName} - Success\n`);

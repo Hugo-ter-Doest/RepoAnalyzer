@@ -43,6 +43,23 @@
     {
       "path": "../open-forms",
       "name": "OpenFormulieren"
+    },
+    {
+      "path": "../openregister",
+      "name": "Openregister"
+    },
+    {
+      "path": "../gzac-frontend-template",
+      "name": "GZAC Frontend"
+    },
+    {
+      "path": "../gzac-backend-template",
+      "name": "GZAC Backend"
+    },
+    {
+      "path": "../valtimo",
+      "name": "Valtimo"
     }
+
   ]
 }

@@ -22,12 +22,24 @@ A comprehensive Node.js tool that analyzes code repositories and provides detail
 - Provides average and maximum complexity scores
 - Overall complexity rating (Low to Very High)
 
+✅ **API Detection**
+- Automatically detects REST API endpoints and resources
+- Identifies CRUD operations (Create, Read, Update, Delete)
+- Supports multiple frameworks:
+  - Python: Django (ViewSets, @api_view, paths)
+  - JavaScript/TypeScript: Express, Koa
+  - Java: Spring Boot (@RestController, @RequestMapping, etc.)
+  - Kotlin: Spring Boot (same annotations)
+  - Go: Chi-router, Gorilla, net/http
+  - PHP: Laravel (Route::), Symfony (#[Route])
+
 ## Supported Languages
 
 - JavaScript (.js, .jsx, .mjs, .cjs)
 - TypeScript (.ts, .tsx)
 - Python (.py)
 - Java (.java)
+- Kotlin (.kt, .kts)
 - C# (.cs)
 - C/C++ (.c, .cpp, .h, .hpp)
 - Go (.go)
@@ -231,6 +243,12 @@ The complexity rating is based on cyclomatic complexity, which measures the numb
 - ⭐⭐⭐⭐ High: Complex, needs refactoring
 - ⭐⭐⭐⭐⭐ Very High: Very complex, difficult to maintain
 
+## Known Limitations
+
+### Vendor and Minified Files
+
+The analyzer counts functions and classes in all JavaScript/TypeScript files, including minified vendor libraries. Large minified files (e.g., bundled BPMN libraries, jQuery, etc.) may inflate function counts significantly as they contain many anonymous function patterns. Consider excluding vendor directories or `.min.js` files if precise metrics are needed.
+
 ## Ignored Directories
 
 The analyzer automatically ignores common build and dependency directories:
@@ -290,7 +308,9 @@ analyze();
 
 ## License
 
-MIT
+Licensed under the [European Union Public Licence (EUPL) v1.2](LICENSE).
+
+The EUPL is an open source copyleft license compatible with major OSS licenses including GPL, AGPL, and MPL. See the [LICENSE](LICENSE) file for the full text.
 
 ## Contributing
 
