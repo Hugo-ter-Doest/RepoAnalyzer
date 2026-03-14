@@ -1,0 +1,43 @@
+{
+  "highComplexityThreshold": 15,
+  "longFunctionNlocThreshold": 1000,
+  "starRules": [
+    {
+      "stars": 5,
+      "maxAverageCCN": 2.0,
+      "maxHighComplexityRate": 1,
+      "label": "Excellent"
+    },
+    {
+      "stars": 4,
+      "maxAverageCCN": 3.5,
+      "maxHighComplexityRate": 3,
+      "label": "Good"
+    },
+    {
+      "stars": 3,
+      "maxAverageCCN": 5.5,
+      "maxHighComplexityRate": 7,
+      "label": "Fair"
+    },
+    {
+      "stars": 2,
+      "maxAverageCCN": 8.0,
+      "maxHighComplexityRate": 12,
+      "label": "Risky"
+    },
+    {
+      "stars": 1,
+      "maxAverageCCN": null,
+      "maxHighComplexityRate": null,
+      "label": "Critical"
+    }
+  ],
+  "guardrails": {
+    "subtractOneStarAtMaxCCN": 50,
+    "capAtStarsWhenMaxCCNAtLeast": {
+      "maxCCN": 100,
+      "maxStars": 3
+    }
+  }
+}

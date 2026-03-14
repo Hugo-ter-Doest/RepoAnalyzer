@@ -59,6 +59,18 @@
     {
       "path": "../valtimo",
       "name": "Valtimo"
+    },
+    {
+      "path": "../dimpact-zaakafhandelcomponent",
+      "name": "ZAC"
+    },
+    {
+      "path": "../plugin-pdc-base",
+      "name": "OWC PDC Plugin Base"
+    },
+    {
+      "path": "../softwarecatalog",
+      "name": "VNG Softwarecatalogus"
     }
 
   ]

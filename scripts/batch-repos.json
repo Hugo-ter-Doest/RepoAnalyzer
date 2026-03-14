@@ -1,0 +1,12 @@
+{
+  "repositories": [
+    {
+      "path": "./",
+      "name": "RepoAnalyzer"
+    },
+    {
+      "path": "../open-zaak",
+      "name": "Open Zaak"
+    }
+  ]
+}

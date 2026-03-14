@@ -1,0 +1,8 @@
+{
+  "repositories": [
+    {
+      "path": "../softwarecatalog",
+      "name": "VNG Softwarecatalogus"
+    }
+  ]
+}

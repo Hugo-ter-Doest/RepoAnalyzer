@@ -1,0 +1,64 @@
+{
+  "repositories": [
+    {
+      "path": "../open-forms",
+      "name": "OpenFormulieren"
+    },
+    {
+      "path": "../gzac-frontend-template",
+      "name": "GZAC Frontend"
+    },
+    {
+      "path": "../gzac-backend-template",
+      "name": "GZAC Backend"
+    },
+    {
+      "path": "../valtimo",
+      "name": "Valtimo"
+    },
+    {
+      "path": "../dimpact-zaakafhandelcomponent",
+      "name": "ZAC"
+    },
+    {
+      "path": "../plugin-pdc-base",
+      "name": "OWC PDC Plugin Base"
+    },
+    {
+      "path": "../softwarecatalog",
+      "name": "VNG Softwarecatalogus"
+    },
+    {
+      "path": "../KISS-frontend",
+      "name": "KISS"
+    },
+    {
+      "path": "../open-inwoner",
+      "name": "OpenInwonerPlatform (OIP)"
+    },
+    {
+      "path": "../openpdd",
+      "name": "OWC Portaal Digitale Diensten (PDD)"
+    },
+    {
+      "path": "../GPP-app",
+      "name": "GPP-app voor medewerkers"
+    },
+    {
+      "path": "../nl-portal-backend-template",
+      "name": "NLPortal Backend"
+    },
+    {
+      "path": "../nl-portal-frontend-template",
+      "name": "NLPortal Frontend"
+    },
+    {
+      "path": "../nl-portal-frontend-libraries",
+      "name": "NLPortal Frontend Libraries"
+    },
+    {
+      "path": "../nl-portal-backend-libraries",
+      "name": "NLPortal Backend Libraries" 
+    }
+  ]
+}

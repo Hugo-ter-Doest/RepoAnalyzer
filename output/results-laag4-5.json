@@ -1,0 +1,592 @@
+{
+  "timestamp": "2026-03-10T07:36:48.754Z",
+  "totalRepositories": 15,
+  "repositories": [
+    {
+      "name": "OpenFormulieren",
+      "path": "../open-forms",
+      "timestamp": "2026-03-10T07:37:39.196Z",
+      "lineCountSource": "lizard_nloc",
+      "repositoryAnalysis": {
+        "codeFiles": 2421,
+        "specificationFiles": 713,
+        "totalFiles": 3134,
+        "fileCount": 2421,
+        "classes": 2895,
+        "publicMethods": 6099,
+        "totalFunctions": 6099,
+        "externalLibraries": 225,
+        "totalImports": 13389,
+        "apiResources": 77
+      },
+      "lizardAnalysis": {
+        "totalFunctions": 9449,
+        "totalFiles": 1587,
+        "totalCCN": 16456,
+        "totalNLOC": 168207,
+        "averageNLOC": 17.8,
+        "averageCCN": 1.74,
+        "maxCCN": 55,
+        "highComplexityCount": 25,
+        "highComplexityRate": 0.26,
+        "longFunctionCount": 0,
+        "rating": {
+          "stars": 4,
+          "starsText": "★★★★☆",
+          "label": "Good"
+        }
+      }
+    },
+    {
+      "name": "GZAC Frontend",
+      "path": "../gzac-frontend-template",
+      "timestamp": "2026-03-10T07:37:40.500Z",
+      "lineCountSource": "lizard_nloc",
+      "repositoryAnalysis": {
+        "codeFiles": 14,
+        "specificationFiles": 15,
+        "totalFiles": 29,
+        "fileCount": 14,
+        "classes": 4,
+        "publicMethods": 911,
+        "totalFunctions": 911,
+        "externalLibraries": 16,
+        "totalImports": 91,
+        "apiResources": 1
+      },
+      "lizardAnalysis": {
+        "totalFunctions": 179,
+        "totalFiles": 9,
+        "totalCCN": 333,
+        "totalNLOC": 237,
+        "averageNLOC": 1.32,
+        "averageCCN": 1.86,
+        "maxCCN": 11,
+        "highComplexityCount": 0,
+        "highComplexityRate": 0,
+        "longFunctionCount": 0,
+        "rating": {
+          "stars": 5,
+          "starsText": "★★★★★",
+          "label": "Excellent"
+        }
+      }
+    },
+    {
+      "name": "GZAC Backend",
+      "path": "../gzac-backend-template",
+      "timestamp": "2026-03-10T07:37:41.023Z",
+      "lineCountSource": "lizard_nloc",
+      "repositoryAnalysis": {
+        "codeFiles": 5,
+        "specificationFiles": 5,
+        "totalFiles": 10,
+        "fileCount": 5,
+        "classes": 1,
+        "publicMethods": 2,
+        "totalFunctions": 2,
+        "externalLibraries": 3,
+        "totalImports": 9,
+        "apiResources": 0
+      },
+      "lizardAnalysis": {
+        "totalFunctions": 4,
+        "totalFiles": 3,
+        "totalCCN": 5,
+        "totalNLOC": 44,
+        "averageNLOC": 11,
+        "averageCCN": 1.25,
+        "maxCCN": 2,
+        "highComplexityCount": 0,
+        "highComplexityRate": 0,
+        "longFunctionCount": 0,
+        "rating": {
+          "stars": 5,
+          "starsText": "★★★★★",
+          "label": "Excellent"
+        }
+      }
+    },
+    {
+      "name": "Valtimo",
+      "path": "../valtimo",
+      "timestamp": "2026-03-10T07:39:35.011Z",
+      "lineCountSource": "lizard_nloc",
+      "repositoryAnalysis": {
+        "codeFiles": 5115,
+        "specificationFiles": 1584,
+        "totalFiles": 6699,
+        "fileCount": 5115,
+        "classes": 4682,
+        "publicMethods": 9532,
+        "totalFunctions": 9532,
+        "externalLibraries": 102,
+        "totalImports": 37352,
+        "apiResources": 15
+      },
+      "lizardAnalysis": {
+        "totalFunctions": 15228,
+        "totalFiles": 3029,
+        "totalCCN": 26362,
+        "totalNLOC": 145566,
+        "averageNLOC": 9.56,
+        "averageCCN": 1.73,
+        "maxCCN": 3591,
+        "highComplexityCount": 14,
+        "highComplexityRate": 0.09,
+        "longFunctionCount": 1,
+        "rating": {
+          "stars": 3,
+          "starsText": "★★★☆☆",
+          "label": "Fair"
+        }
+      }
+    },
+    {
+      "name": "ZAC",
+      "path": "../dimpact-zaakafhandelcomponent",
+      "timestamp": "2026-03-10T07:40:14.991Z",
+      "lineCountSource": "lizard_nloc",
+      "repositoryAnalysis": {
+        "codeFiles": 1677,
+        "specificationFiles": 272,
+        "totalFiles": 1949,
+        "fileCount": 1677,
+        "classes": 1643,
+        "publicMethods": 2923,
+        "totalFunctions": 2923,
+        "externalLibraries": 65,
+        "totalImports": 15294,
+        "apiResources": 0
+      },
+      "lizardAnalysis": {
+        "totalFunctions": 5460,
+        "totalFiles": 979,
+        "totalCCN": 8002,
+        "totalNLOC": 40936,
+        "averageNLOC": 7.5,
+        "averageCCN": 1.47,
+        "maxCCN": 22,
+        "highComplexityCount": 5,
+        "highComplexityRate": 0.09,
+        "longFunctionCount": 0,
+        "rating": {
+          "stars": 5,
+          "starsText": "★★★★★",
+          "label": "Excellent"
+        }
+      }
+    },
+    {
+      "name": "OWC PDC Plugin Base",
+      "path": "../plugin-pdc-base",
+      "timestamp": "2026-03-10T07:40:20.078Z",
+      "lineCountSource": "lizard_nloc",
+      "repositoryAnalysis": {
+        "codeFiles": 127,
+        "specificationFiles": 2,
+        "totalFiles": 129,
+        "fileCount": 127,
+        "classes": 95,
+        "publicMethods": 311,
+        "totalFunctions": 311,
+        "externalLibraries": 0,
+        "totalImports": 2,
+        "apiResources": 0
+      },
+      "lizardAnalysis": {
+        "totalFunctions": 419,
+        "totalFiles": 95,
+        "totalCCN": 894,
+        "totalNLOC": 5020,
+        "averageNLOC": 11.98,
+        "averageCCN": 2.13,
+        "maxCCN": 11,
+        "highComplexityCount": 0,
+        "highComplexityRate": 0,
+        "longFunctionCount": 0,
+        "rating": {
+          "stars": 4,
+          "starsText": "★★★★☆",
+          "label": "Good"
+        }
+      }
+    },
+    {
+      "name": "VNG Softwarecatalogus",
+      "path": "../softwarecatalog",
+      "timestamp": "2026-03-10T07:40:29.810Z",
+      "lineCountSource": "lizard_nloc",
+      "repositoryAnalysis": {
+        "codeFiles": 97,
+        "specificationFiles": 38,
+        "totalFiles": 135,
+        "fileCount": 97,
+        "classes": 85,
+        "publicMethods": 559,
+        "totalFunctions": 559,
+        "externalLibraries": 18,
+        "totalImports": 59,
+        "apiResources": 0
+      },
+      "lizardAnalysis": {
+        "totalFunctions": 1227,
+        "totalFiles": 105,
+        "totalCCN": 6942,
+        "totalNLOC": 33899,
+        "averageNLOC": 27.63,
+        "averageCCN": 5.66,
+        "maxCCN": 77,
+        "highComplexityCount": 124,
+        "highComplexityRate": 10.11,
+        "longFunctionCount": 0,
+        "rating": {
+          "stars": 1,
+          "starsText": "★☆☆☆☆",
+          "label": "Critical"
+        }
+      }
+    },
+    {
+      "name": "KISS",
+      "path": "../KISS-frontend",
+      "timestamp": "2026-03-10T07:40:43.611Z",
+      "lineCountSource": "lizard_nloc",
+      "repositoryAnalysis": {
+        "codeFiles": 304,
+        "specificationFiles": 44,
+        "totalFiles": 348,
+        "fileCount": 304,
+        "classes": 252,
+        "publicMethods": 621,
+        "totalFunctions": 621,
+        "externalLibraries": 43,
+        "totalImports": 849,
+        "apiResources": 1
+      },
+      "lizardAnalysis": {
+        "totalFunctions": 1855,
+        "totalFiles": 311,
+        "totalCCN": 3417,
+        "totalNLOC": 21973,
+        "averageNLOC": 11.85,
+        "averageCCN": 1.84,
+        "maxCCN": 44,
+        "highComplexityCount": 8,
+        "highComplexityRate": 0.43,
+        "longFunctionCount": 0,
+        "rating": {
+          "stars": 5,
+          "starsText": "★★★★★",
+          "label": "Excellent"
+        }
+      }
+    },
+    {
+      "name": "OpenInwonerPlatform (OIP)",
+      "path": "../open-inwoner",
+      "timestamp": "2026-03-10T07:41:13.582Z",
+      "lineCountSource": "lizard_nloc",
+      "repositoryAnalysis": {
+        "codeFiles": 1583,
+        "specificationFiles": 300,
+        "totalFiles": 1883,
+        "fileCount": 1583,
+        "classes": 1944,
+        "publicMethods": 5306,
+        "totalFunctions": 5306,
+        "externalLibraries": 176,
+        "totalImports": 5888,
+        "apiResources": 55
+      },
+      "lizardAnalysis": {
+        "totalFunctions": 5369,
+        "totalFiles": 710,
+        "totalCCN": 9865,
+        "totalNLOC": 70967,
+        "averageNLOC": 13.22,
+        "averageCCN": 1.84,
+        "maxCCN": 132,
+        "highComplexityCount": 22,
+        "highComplexityRate": 0.41,
+        "longFunctionCount": 0,
+        "rating": {
+          "stars": 3,
+          "starsText": "★★★☆☆",
+          "label": "Fair"
+        }
+      }
+    },
+    {
+      "name": "OWC Portaal Digitale Diensten (PDD)",
+      "path": "../openpdd",
+      "timestamp": "2026-03-10T07:41:19.153Z",
+      "lineCountSource": "lizard_nloc",
+      "repositoryAnalysis": {
+        "codeFiles": 117,
+        "specificationFiles": 33,
+        "totalFiles": 150,
+        "fileCount": 117,
+        "classes": 29,
+        "publicMethods": 145,
+        "totalFunctions": 145,
+        "externalLibraries": 9,
+        "totalImports": 56,
+        "apiResources": 0
+      },
+      "lizardAnalysis": {
+        "totalFunctions": 253,
+        "totalFiles": 52,
+        "totalCCN": 507,
+        "totalNLOC": 2251,
+        "averageNLOC": 8.9,
+        "averageCCN": 2,
+        "maxCCN": 14,
+        "highComplexityCount": 0,
+        "highComplexityRate": 0,
+        "longFunctionCount": 0,
+        "rating": {
+          "stars": 5,
+          "starsText": "★★★★★",
+          "label": "Excellent"
+        }
+      }
+    },
+    {
+      "name": "GPP-app voor medewerkers",
+      "path": "../GPP-app",
+      "timestamp": "2026-03-10T07:41:23.623Z",
+      "lineCountSource": "lizard_nloc",
+      "repositoryAnalysis": {
+        "codeFiles": 114,
+        "specificationFiles": 19,
+        "totalFiles": 133,
+        "fileCount": 114,
+        "classes": 84,
+        "publicMethods": 107,
+        "totalFunctions": 107,
+        "externalLibraries": 20,
+        "totalImports": 262,
+        "apiResources": 0
+      },
+      "lizardAnalysis": {
+        "totalFunctions": 332,
+        "totalFiles": 97,
+        "totalCCN": 637,
+        "totalNLOC": 3239,
+        "averageNLOC": 9.76,
+        "averageCCN": 1.92,
+        "maxCCN": 23,
+        "highComplexityCount": 2,
+        "highComplexityRate": 0.6,
+        "longFunctionCount": 0,
+        "rating": {
+          "stars": 5,
+          "starsText": "★★★★★",
+          "label": "Excellent"
+        }
+      }
+    },
+    {
+      "name": "NLPortal Backend",
+      "path": "../nl-portal-backend-template",
+      "timestamp": "2026-03-10T07:41:24.025Z",
+      "lineCountSource": "lizard_nloc",
+      "repositoryAnalysis": {
+        "codeFiles": 4,
+        "specificationFiles": 3,
+        "totalFiles": 7,
+        "fileCount": 4,
+        "classes": 1,
+        "publicMethods": 1,
+        "totalFunctions": 1,
+        "externalLibraries": 3,
+        "totalImports": 9,
+        "apiResources": 0
+      },
+      "lizardAnalysis": {
+        "totalFunctions": 1,
+        "totalFiles": 1,
+        "totalCCN": 1,
+        "totalNLOC": 13,
+        "averageNLOC": 13,
+        "averageCCN": 1,
+        "maxCCN": 1,
+        "highComplexityCount": 0,
+        "highComplexityRate": 0,
+        "longFunctionCount": 0,
+        "rating": {
+          "stars": 5,
+          "starsText": "★★★★★",
+          "label": "Excellent"
+        }
+      }
+    },
+    {
+      "name": "NLPortal Frontend",
+      "path": "../nl-portal-frontend-template",
+      "timestamp": "2026-03-10T07:41:24.726Z",
+      "lineCountSource": "lizard_nloc",
+      "repositoryAnalysis": {
+        "codeFiles": 21,
+        "specificationFiles": 8,
+        "totalFiles": 29,
+        "fileCount": 21,
+        "classes": 0,
+        "publicMethods": 4,
+        "totalFunctions": 4,
+        "externalLibraries": 7,
+        "totalImports": 50,
+        "apiResources": 0
+      },
+      "lizardAnalysis": {
+        "totalFunctions": 12,
+        "totalFiles": 6,
+        "totalCCN": 28,
+        "totalNLOC": 309,
+        "averageNLOC": 25.75,
+        "averageCCN": 2.33,
+        "maxCCN": 13,
+        "highComplexityCount": 0,
+        "highComplexityRate": 0,
+        "longFunctionCount": 0,
+        "rating": {
+          "stars": 4,
+          "starsText": "★★★★☆",
+          "label": "Good"
+        }
+      }
+    },
+    {
+      "name": "NLPortal Frontend Libraries",
+      "path": "../nl-portal-frontend-libraries",
+      "timestamp": "2026-03-10T07:41:29.922Z",
+      "lineCountSource": "lizard_nloc",
+      "repositoryAnalysis": {
+        "codeFiles": 241,
+        "specificationFiles": 26,
+        "totalFiles": 267,
+        "fileCount": 241,
+        "classes": 3,
+        "publicMethods": 146,
+        "totalFunctions": 146,
+        "externalLibraries": 33,
+        "totalImports": 859,
+        "apiResources": 0
+      },
+      "lizardAnalysis": {
+        "totalFunctions": 678,
+        "totalFiles": 149,
+        "totalCCN": 2501,
+        "totalNLOC": 7308,
+        "averageNLOC": 10.78,
+        "averageCCN": 3.69,
+        "maxCCN": 209,
+        "highComplexityCount": 33,
+        "highComplexityRate": 4.87,
+        "longFunctionCount": 0,
+        "rating": {
+          "stars": 2,
+          "starsText": "★★☆☆☆",
+          "label": "Risky"
+        }
+      }
+    },
+    {
+      "name": "NLPortal Backend Libraries",
+      "path": "../nl-portal-backend-libraries",
+      "timestamp": "2026-03-10T07:41:42.664Z",
+      "lineCountSource": "lizard_nloc",
+      "repositoryAnalysis": {
+        "codeFiles": 594,
+        "specificationFiles": 135,
+        "totalFiles": 729,
+        "fileCount": 594,
+        "classes": 708,
+        "publicMethods": 1231,
+        "totalFunctions": 1231,
+        "externalLibraries": 15,
+        "totalImports": 3689,
+        "apiResources": 0
+      },
+      "lizardAnalysis": {
+        "totalFunctions": 1025,
+        "totalFiles": 324,
+        "totalCCN": 1475,
+        "totalNLOC": 11015,
+        "averageNLOC": 10.75,
+        "averageCCN": 1.44,
+        "maxCCN": 26,
+        "highComplexityCount": 2,
+        "highComplexityRate": 0.2,
+        "longFunctionCount": 0,
+        "rating": {
+          "stars": 5,
+          "starsText": "★★★★★",
+          "label": "Excellent"
+        }
+      }
+    }
+  ],
+  "summary": {
+    "totalNLOC": 510984,
+    "totalClasses": 12426,
+    "totalExternalLibraries": 735,
+    "totalAPIs": 149,
+    "totalFunctions": 41491,
+    "totalHighComplexityFunctions": 235,
+    "highComplexityRate": 0.57,
+    "maxCCN": 3591,
+    "averageComplexity": 1.87,
+    "complexityRating": "★★★☆☆ Fair",
+    "complexityRatingLabel": "Fair",
+    "complexityStars": 3,
+    "complexitySource": "Lizard CCN + %CCN>15",
+    "highComplexityThreshold": 15,
+    "longFunctionNlocThreshold": 1000
+  },
+  "ratingConfig": {
+    "source": "C:\\Workspace\\RepoAnalyzer\\scripts\\lizard-rating-config.json",
+    "highComplexityThreshold": 15,
+    "longFunctionNlocThreshold": 1000,
+    "starRules": [
+      {
+        "stars": 5,
+        "maxAverageCCN": 2,
+        "maxHighComplexityRate": 1,
+        "label": "Excellent"
+      },
+      {
+        "stars": 4,
+        "maxAverageCCN": 3.5,
+        "maxHighComplexityRate": 3,
+        "label": "Good"
+      },
+      {
+        "stars": 3,
+        "maxAverageCCN": 5.5,
+        "maxHighComplexityRate": 7,
+        "label": "Fair"
+      },
+      {
+        "stars": 2,
+        "maxAverageCCN": 8,
+        "maxHighComplexityRate": 12,
+        "label": "Risky"
+      },
+      {
+        "stars": 1,
+        "maxAverageCCN": null,
+        "maxHighComplexityRate": null,
+        "label": "Critical"
+      }
+    ],
+    "guardrails": {
+      "subtractOneStarAtMaxCCN": 50,
+      "capAtStarsWhenMaxCCNAtLeast": {
+        "maxCCN": 100,
+        "maxStars": 3
+      }
+    }
+  }
+}

@@ -1,12 +1,13 @@
 {
   "name": "repo-analyzer",
   "version": "1.0.0",
-  "description": "A comprehensive repository analyzer that provides metrics on code complexity, LOC, classes/modules, and API usage",
+  "description": "A repository analyzer for structure, dependencies, and API usage with optional Lizard-based complexity workflow",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "analyze": "node index.js",
-    "batch": "node batch-analyze.js"
+    "batch": "node scripts/batch-hybrid-analyze.js",
+    "report": "node scripts/hybrid-report.js"
   },
   "keywords": [
     "code-analysis",

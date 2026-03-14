@@ -1,37 +1,31 @@
 # Repository Analyzer
 
-A comprehensive Node.js tool that analyzes code repositories and provides detailed metrics including lines of code, classes/modules, API usage, and complexity ratings.
+Repository Analyzer provides repository-wide structure and dependency metrics.
+
+Line-count and cyclomatic complexity metrics are handled through the hybrid Lizard workflow.
 
 ## Features
 
-✅ **Lines of Code Analysis**
-- Total lines, code lines, comment lines, and blank lines
-- Supports multiple programming languages
+✅ **Repository Structure Metrics**
+- Total code files and specification/config files
+- Class count
+- Public method/function count
+- Total function count
+- Language breakdown by file count
 
-✅ **Classes & Modules Detection**
-- Counts classes in OOP languages (JavaScript, TypeScript, Java, C#, etc.)
-- Counts modules/structs in non-OOP languages (Go, Rust, etc.)
+✅ **Dependency Metrics**
+- External library detection from imports/requires/usings
+- Unique dependency count
+- Total import/reference statement count
 
-✅ **External Library Tracking**
-- Detects all external dependencies imported/required in code
-- Counts unique external libraries used
-- Identifies all external library imports
+✅ **API Resource Detection**
+- Resource + CRUD capability detection
+- Summary counts for full CRUD, read-only, and partial resources
 
-✅ **Cyclomatic Complexity Rating**
-- Calculates complexity for each function/method
-- Provides average and maximum complexity scores
-- Overall complexity rating (Low to Very High)
-
-✅ **API Detection**
-- Automatically detects REST API endpoints and resources
-- Identifies CRUD operations (Create, Read, Update, Delete)
-- Supports multiple frameworks:
-  - Python: Django (ViewSets, @api_view, paths)
-  - JavaScript/TypeScript: Express, Koa
-  - Java: Spring Boot (@RestController, @RequestMapping, etc.)
-  - Kotlin: Spring Boot (same annotations)
-  - Go: Chi-router, Gorilla, net/http
-  - PHP: Laravel (Route::), Symfony (#[Route])
+✅ **Hybrid Complexity Workflow (Lizard + RepoAnalyzer)**
+- Lizard for `NLOC`, `CCN`, `max CCN`, and high-complexity rate
+- Configurable 5-star rating via `scripts/lizard-rating-config.json`
+- Markdown reporting via `scripts/hybrid-report.js`
 
 ## Supported Languages
 
@@ -55,203 +49,121 @@ A comprehensive Node.js tool that analyzes code repositories and provides detail
 ## Installation
 
 ```bash
-# Clone or navigate to the repository
 cd RepoAnalyzer
-
-# Install dependencies
 npm install
+```
+
+For hybrid complexity analysis:
+
+```bash
+python -m pip install lizard
 ```
 
 ## Usage
 
-### Analyze Current Directory
-
-```bash
-node index.js
-```
-
-### Analyze Specific Repository
+### Analyze a Single Repository
 
 ```bash
 node index.js /path/to/repository
 ```
 
-### Export Results to JSON
+Export result JSON into analyzed repository:
 
 ```bash
 node index.js /path/to/repository --json
 ```
 
-This will create a `repo-analysis.json` file in the analyzed repository.
-
-### Batch Analysis - Multiple Repositories
-
-Analyze multiple repositories at once and get aggregated results in JSON:
+### Batch Analysis (Hybrid)
 
 ```bash
-# Create a repos.json file with repository paths
-node batch-analyze.js repos.json analysis-results.json
+# Uses scripts/lizard-rating-config.json by default
+node scripts/batch-hybrid-analyze.js repos.json hybrid-analysis-results.json
+
+# Or use npm script
+npm run batch -- repos.json hybrid-analysis-results.json
+
+# Optional custom rating config
+node scripts/batch-hybrid-analyze.js repos.json hybrid-analysis-results.json custom-lizard-rating-config.json
 ```
 
-**Input JSON Format** (`repos.json`):
+Generate markdown report:
+
+```bash
+node scripts/hybrid-report.js hybrid-analysis-results.json hybrid-analysis-report.md
+
+# Or use npm script
+npm run report -- hybrid-analysis-results.json hybrid-analysis-report.md
+```
+
+## Batch Input Format (`repos.json`)
+
 ```json
 {
   "repositories": [
-    {
-      "path": "/path/to/repo1",
-      "name": "Project 1"
-    },
-    {
-      "path": "/path/to/repo2",
-      "name": "Project 2"
-    },
-    {
-      "path": "/path/to/repo3",
-      "name": "Project 3"
-    }
+    { "path": "/path/to/repo1", "name": "Project 1" },
+    { "path": "/path/to/repo2", "name": "Project 2" }
   ]
 }
 ```
 
-**Output JSON Format** (`analysis-results.json`):
-```json
+## `analyzeRepository` Result Shape
+
+```javascript
 {
-  "timestamp": "2026-03-05T10:30:00.000Z",
-  "totalRepositories": 3,
-  "repositories": [
-    {
-      "name": "Project 1",
-      "path": "/path/to/repo1",
-      "status": "success",
-      "analysis": {
-        "linesOfCode": 45287,
-        "codeLines": 32451,
-        "commentLines": 8234,
-        "blankLines": 4602,
-        "classesAndModules": 267,
-        "classes": 89,
-        "filesAnalyzed": 245,
-        "uniqueExternalLibraries": 47,
-        "avgComplexity": 4.23,
-        "maxComplexity": 18,
-        "complexityRating": "⭐⭐ Moderate",
-        "totalFunctions": 456,
-        "filesAnalyzed": 245,
-        "languageBreakdown": {
-          "JavaScript": 120,
-          "TypeScript": 85,
-          "Python": 40
-        }
-      }
+  version: "1.0.0",
+  code: {
+    classes: 89,
+    files: 245,
+    publicMethods: 122,
+    totalFunctions: 122,
+    languageBreakdown: {
+      javascript: 180,
+      typescript: 45,
+      python: 20
+    },
+    externalLibrariesAccessed: 892,
+    uniqueExternalLibraries: 47,
+    apiResources: {
+      uniqueCount: 12,
+      fullCrudCount: 3,
+      readOnlyCount: 5,
+      createOnlyCount: 1,
+      updateOnlyCount: 0,
+      deleteOnlyCount: 0,
+      partialCount: 4
     }
-  ],
-  "summary": {
-    "totalLinesOfCode": 135861,
-    "totalClasses": 267,
-    "totalFilesAnalyzed": 735,
-    "totalFunctions": 1367,
-    "totalDependencies": 142,
-    "averageComplexity": 4.15
+  },
+  specifications: {
+    files: 12,
+    languageBreakdown: {
+      json: 8,
+      yaml: 4
+    }
   }
 }
 ```
 
-## Output Example
+## Hybrid Output Highlights
 
+- RepoAnalyzer metrics: files, classes, methods/functions, dependencies, APIs
+- Lizard metrics: total files, total functions, NLOC, avg/max CCN
+- Quality indicators: high-complexity rate + 5-star rating
+
+## API Usage (Programmatic)
+
+```javascript
+const { analyzeRepository } = require('./lib/analyzer');
+
+async function run() {
+  const results = await analyzeRepository('/path/to/repo');
+  console.log(results);
+}
+
+run();
 ```
-🔍 Analyzing repository: C:\Projects\MyApp
-
-============================================================
-Found 245 code files to analyze...
-
-📊 REPOSITORY ANALYSIS RESULTS
-
-============================================================
-
-📏 Lines of Code: 45,287
-   - Code: 32,451
-   - Comments: 8,234
-   - Blank: 4,602
-
-📦 Classes and Files: 267
-   - Classes: 89
-   - Files Analyzed: 245
-
-� External Libraries Used: 47
-   - Unique Dependencies: 47
-   - Total Import Statements: 892
-
-
-⚡ Complexity Rating: ⭐⭐ Moderate (Reasonably maintainable)
-   - Average Cyclomatic Complexity: 4.23
-   - Max Complexity (single function): 18
-   - Functions Analyzed: 456
-
-📁 Files Analyzed: 245
-   Languages: javascript (180), typescript (45), python (12), java (8)
-
-============================================================
-
-✅ Analysis complete!
-```
-
-## Metrics Explained
-
-### Lines of Code
-- **Total Lines**: All lines in code files
-- **Code Lines**: Lines containing actual code
-- **Comment Lines**: Lines with comments or documentation
-- **Blank Lines**: Empty lines
-
-### Classes & Content Overview
-- **Classes**: OOP classes (class definitions in JS, Java, C#, etc.)
-- **Files Analyzed**: Total number of code files analyzed in the repository
-
-### External Libraries Used
-Counts actual external library imports and dependencies:
-- **Unique Dependencies**: Number of distinct external packages/libraries your code uses
-- **Total Import Statements**: Total import/require/using statements across all files
-
-Examples detected:
-- JavaScript/TypeScript: `import`, `require()`, `import()` statements
-- Python: `import`, `from ... import` statements  
-- Java: `import` statements
-- C#: `using` statements
-- Go: `import` statements
-- Ruby: `require` statements
-- PHP: `require`, `include` statements
-
-### Complexity Rating
-
-The complexity rating is based on cyclomatic complexity, which measures the number of independent paths through code. The rating considers:
-
-- **Average Complexity**: Mean complexity across all functions
-- **Max Complexity**: Highest complexity in a single function
-- **Code Organization**: Lines per file ratio
-
-**Complexity Guidelines:**
-- **1-5**: Low complexity, easy to test and maintain
-- **6-10**: Moderate complexity, acceptable
-- **11-20**: Medium complexity, consider refactoring
-- **21-50**: High complexity, should be refactored
-- **51+**: Very high complexity, difficult to maintain
-
-**Ratings:**
-- ⭐ Low: Simple, easy to maintain
-- ⭐⭐ Moderate: Reasonably maintainable
-- ⭐⭐⭐ Medium: Getting complex
-- ⭐⭐⭐⭐ High: Complex, needs refactoring
-- ⭐⭐⭐⭐⭐ Very High: Very complex, difficult to maintain
-
-## Known Limitations
-
-### Vendor and Minified Files
-
-The analyzer counts functions and classes in all JavaScript/TypeScript files, including minified vendor libraries. Large minified files (e.g., bundled BPMN libraries, jQuery, etc.) may inflate function counts significantly as they contain many anonymous function patterns. Consider excluding vendor directories or `.min.js` files if precise metrics are needed.
 
 ## Ignored Directories
 
-The analyzer automatically ignores common build and dependency directories:
 - node_modules
 - vendor
 - dist, build, out
@@ -263,55 +175,10 @@ The analyzer automatically ignores common build and dependency directories:
 - target
 - .idea, .vscode
 
-## API Usage
-
-You can also use this tool programmatically:
-
-```javascript
-const { analyzeRepository } = require('./lib/analyzer');
-
-async function analyze() {
-  const results = await analyzeRepository('/path/to/repo');
-  console.log(results);
-}
-
-analyze();
-```
-
-## Results Object Structure
-
-```javascript
-{
-  linesOfCode: 45287,
-  codeLines: 32451,
-  commentLines: 8234,
-  blankLines: 4602,
-  classes: 89,
-  filesAnalyzed: 245,
-  classesAndModules: 334,
-  externalLibrariesAccessed: 892,
-  uniqueExternalLibraries: 47,
-  publicMethods: 122,
-  complexityRating: "⭐⭐ Moderate (Reasonably maintainable)",
-  avgComplexity: 4.23,
-  maxComplexity: 18,
-  totalFunctions: 456,
-  filesAnalyzed: 245,
-  languageBreakdown: {
-    javascript: 180,
-    typescript: 45,
-    python: 12,
-    java: 8
-  }
-}
-```
-
 ## License
 
-Licensed under the [European Union Public Licence (EUPL) v1.2](LICENSE).
-
-The EUPL is an open source copyleft license compatible with major OSS licenses including GPL, AGPL, and MPL. See the [LICENSE](LICENSE) file for the full text.
+See [LICENSE](LICENSE).
 
 ## Contributing
 
-Feel free to submit issues or pull requests to improve the analyzer!
+Issues and pull requests are welcome.

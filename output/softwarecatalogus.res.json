@@ -1,0 +1,102 @@
+{
+  "timestamp": "2026-03-14T10:23:38.366Z",
+  "totalRepositories": 1,
+  "repositories": [
+    {
+      "name": "VNG Softwarecatalogus",
+      "path": "../softwarecatalog",
+      "timestamp": "2026-03-14T10:23:51.904Z",
+      "lineCountSource": "lizard_nloc",
+      "repositoryAnalysis": {
+        "codeFiles": 97,
+        "specificationFiles": 38,
+        "totalFiles": 135,
+        "fileCount": 97,
+        "classes": 85,
+        "publicMethods": 559,
+        "totalFunctions": 559,
+        "externalLibraries": 18,
+        "totalImports": 59,
+        "apiResources": 0
+      },
+      "lizardAnalysis": {
+        "totalFunctions": 1227,
+        "totalFiles": 105,
+        "totalCCN": 6942,
+        "totalNLOC": 33899,
+        "averageNLOC": 27.63,
+        "averageCCN": 5.66,
+        "maxCCN": 77,
+        "highComplexityCount": 124,
+        "highComplexityRate": 10.11,
+        "longFunctionCount": 0,
+        "rating": {
+          "stars": 1,
+          "starsText": "★☆☆☆☆",
+          "label": "Critical"
+        }
+      }
+    }
+  ],
+  "summary": {
+    "totalNLOC": 33899,
+    "totalClasses": 85,
+    "totalExternalLibraries": 18,
+    "totalAPIs": 0,
+    "totalFunctions": 1227,
+    "totalHighComplexityFunctions": 124,
+    "highComplexityRate": 10.11,
+    "maxCCN": 77,
+    "averageComplexity": 5.66,
+    "complexityRating": "★☆☆☆☆ Critical",
+    "complexityRatingLabel": "Critical",
+    "complexityStars": 1,
+    "complexitySource": "Lizard CCN + %CCN>15",
+    "highComplexityThreshold": 15,
+    "longFunctionNlocThreshold": 1000
+  },
+  "ratingConfig": {
+    "source": "C:\\Workspace\\RepoAnalyzer\\scripts\\lizard-rating-config.json",
+    "highComplexityThreshold": 15,
+    "longFunctionNlocThreshold": 1000,
+    "starRules": [
+      {
+        "stars": 5,
+        "maxAverageCCN": 2,
+        "maxHighComplexityRate": 1,
+        "label": "Excellent"
+      },
+      {
+        "stars": 4,
+        "maxAverageCCN": 3.5,
+        "maxHighComplexityRate": 3,
+        "label": "Good"
+      },
+      {
+        "stars": 3,
+        "maxAverageCCN": 5.5,
+        "maxHighComplexityRate": 7,
+        "label": "Fair"
+      },
+      {
+        "stars": 2,
+        "maxAverageCCN": 8,
+        "maxHighComplexityRate": 12,
+        "label": "Risky"
+      },
+      {
+        "stars": 1,
+        "maxAverageCCN": null,
+        "maxHighComplexityRate": null,
+        "label": "Critical"
+      }
+    ],
+    "guardrails": {
+      "subtractOneStarAtMaxCCN": 50,
+      "capAtStarsWhenMaxCCNAtLeast": {
+        "maxCCN": 100,
+        "maxStars": 3
+      }
+    }
+  }
+}

@@ -20,19 +20,12 @@ async function main() {
     // Display code metrics
     console.log(`\n📝 CODE METRICS`);
     console.log(`   Version: ${results.version}`);
-    console.log(`   Lines of Code: ${results.code.linesOfCode.toLocaleString()}`);
-    console.log(`   - Code: ${results.code.codeLines.toLocaleString()}`);
-    console.log(`   - Comments: ${results.code.commentLines.toLocaleString()}`);
-    console.log(`   - Blank: ${results.code.blankLines.toLocaleString()}`);
-    console.log(`   - Files: ${results.code.files}`);
+    console.log(`   Files: ${results.code.files}`);
     console.log(`\n   Classes: ${results.code.classes}`);
     console.log(`   Public Methods: ${results.code.publicMethods}`);
     console.log(`   Total Functions: ${results.code.totalFunctions}`);
     console.log(`\n   External Libraries: ${results.code.uniqueExternalLibraries}`);
     console.log(`   - Total Imports: ${results.code.externalLibrariesAccessed}`);
-    console.log(`\n   Complexity: ${results.code.complexityRating}`);
-    console.log(`   - Average: ${results.code.avgComplexity.toFixed(2)}`);
-    console.log(`   - Maximum: ${results.code.maxComplexity}`);
     
     // Display API resources
     if (results.code.apiResources && results.code.apiResources.uniqueCount > 0) {
@@ -47,26 +40,22 @@ async function main() {
       if (apiResources.deleteOnlyCount > 0) console.log(`      Delete-only: ${apiResources.deleteOnlyCount.toString().padStart(3)}`);
     }
     
-    console.log(`\n   Languages (by LOC):`);
+    console.log(`\n   Languages (by files):`);
     Object.entries(results.code.languageBreakdown)
       .sort((a, b) => b[1] - a[1])
-      .forEach(([lang, loc]) => {
-        console.log(`      ${lang.padEnd(12)} ${loc.toLocaleString().padStart(8)} lines`);
+      .forEach(([lang, files]) => {
+        console.log(`      ${lang.padEnd(12)} ${files.toLocaleString().padStart(8)} files`);
       });
     
     // Display specifications metrics
     if (results.specifications.files > 0) {
       console.log(`\n📋 SPECIFICATIONS & CONFIG`);
-      console.log(`   Lines of Code: ${results.specifications.linesOfCode.toLocaleString()}`);
-      console.log(`   - Code: ${results.specifications.codeLines.toLocaleString()}`);
-      console.log(`   - Comments: ${results.specifications.commentLines.toLocaleString()}`);
-      console.log(`   - Blank: ${results.specifications.blankLines.toLocaleString()}`);
       console.log(`   - Files: ${results.specifications.files}`);
-      console.log(`\n   Types (by LOC):`);
+      console.log(`\n   Types (by files):`);
       Object.entries(results.specifications.languageBreakdown)
         .sort((a, b) => b[1] - a[1])
-        .forEach(([lang, loc]) => {
-          console.log(`      ${lang.padEnd(12)} ${loc.toLocaleString().padStart(8)} lines`);
+        .forEach(([lang, files]) => {
+          console.log(`      ${lang.padEnd(12)} ${files.toLocaleString().padStart(8)} files`);
         });
     }
     

@@ -1,0 +1,592 @@
+{
+  "timestamp": "2026-03-07T12:09:41.955Z",
+  "totalRepositories": 15,
+  "repositories": [
+    {
+      "name": "Openzaak",
+      "path": "../open-zaak",
+      "timestamp": "2026-03-07T12:09:59.110Z",
+      "lineCountSource": "lizard_nloc",
+      "repositoryAnalysis": {
+        "codeFiles": 939,
+        "specificationFiles": 175,
+        "totalFiles": 1114,
+        "fileCount": 939,
+        "classes": 1653,
+        "publicMethods": 3966,
+        "totalFunctions": 3966,
+        "externalLibraries": 116,
+        "totalImports": 5970,
+        "apiResources": 125
+      },
+      "lizardAnalysis": {
+        "totalFunctions": 4660,
+        "totalFiles": 576,
+        "totalCCN": 7435,
+        "totalNLOC": 79405,
+        "averageNLOC": 17.04,
+        "averageCCN": 1.6,
+        "maxCCN": 30,
+        "highComplexityCount": 6,
+        "highComplexityRate": 0.13,
+        "longFunctionCount": 0,
+        "rating": {
+          "stars": 5,
+          "starsText": "★★★★★",
+          "label": "Excellent"
+        }
+      }
+    },
+    {
+      "name": "Openklant",
+      "path": "../open-klant",
+      "timestamp": "2026-03-07T12:10:03.838Z",
+      "lineCountSource": "lizard_nloc",
+      "repositoryAnalysis": {
+        "codeFiles": 291,
+        "specificationFiles": 111,
+        "totalFiles": 402,
+        "fileCount": 291,
+        "classes": 425,
+        "publicMethods": 823,
+        "totalFunctions": 823,
+        "externalLibraries": 72,
+        "totalImports": 1146,
+        "apiResources": 23
+      },
+      "lizardAnalysis": {
+        "totalFunctions": 995,
+        "totalFiles": 137,
+        "totalCCN": 1694,
+        "totalNLOC": 20457,
+        "averageNLOC": 20.56,
+        "averageCCN": 1.7,
+        "maxCCN": 33,
+        "highComplexityCount": 5,
+        "highComplexityRate": 0.5,
+        "longFunctionCount": 0,
+        "rating": {
+          "stars": 5,
+          "starsText": "★★★★★",
+          "label": "Excellent"
+        }
+      }
+    },
+    {
+      "name": "Objectenregister",
+      "path": "../objects-api",
+      "timestamp": "2026-03-07T12:10:07.494Z",
+      "lineCountSource": "lizard_nloc",
+      "repositoryAnalysis": {
+        "codeFiles": 234,
+        "specificationFiles": 58,
+        "totalFiles": 292,
+        "fileCount": 234,
+        "classes": 248,
+        "publicMethods": 565,
+        "totalFunctions": 565,
+        "externalLibraries": 69,
+        "totalImports": 887,
+        "apiResources": 9
+      },
+      "lizardAnalysis": {
+        "totalFunctions": 691,
+        "totalFiles": 120,
+        "totalCCN": 1138,
+        "totalNLOC": 9211,
+        "averageNLOC": 13.33,
+        "averageCCN": 1.65,
+        "maxCCN": 11,
+        "highComplexityCount": 0,
+        "highComplexityRate": 0,
+        "longFunctionCount": 0,
+        "rating": {
+          "stars": 5,
+          "starsText": "★★★★★",
+          "label": "Excellent"
+        }
+      }
+    },
+    {
+      "name": "Objecttypenregister",
+      "path": "../objecttypes-api",
+      "timestamp": "2026-03-07T12:10:09.326Z",
+      "lineCountSource": "lizard_nloc",
+      "repositoryAnalysis": {
+        "codeFiles": 141,
+        "specificationFiles": 37,
+        "totalFiles": 178,
+        "fileCount": 141,
+        "classes": 114,
+        "publicMethods": 169,
+        "totalFunctions": 169,
+        "externalLibraries": 45,
+        "totalImports": 392,
+        "apiResources": 7
+      },
+      "lizardAnalysis": {
+        "totalFunctions": 208,
+        "totalFiles": 57,
+        "totalCCN": 305,
+        "totalNLOC": 2324,
+        "averageNLOC": 11.17,
+        "averageCCN": 1.47,
+        "maxCCN": 10,
+        "highComplexityCount": 0,
+        "highComplexityRate": 0,
+        "longFunctionCount": 0,
+        "rating": {
+          "stars": 5,
+          "starsText": "★★★★★",
+          "label": "Excellent"
+        }
+      }
+    },
+    {
+      "name": "GPP-publicatiebank",
+      "path": "../GPP-publicatiebank",
+      "timestamp": "2026-03-07T12:10:14.121Z",
+      "lineCountSource": "lizard_nloc",
+      "repositoryAnalysis": {
+        "codeFiles": 290,
+        "specificationFiles": 119,
+        "totalFiles": 409,
+        "fileCount": 290,
+        "classes": 348,
+        "publicMethods": 756,
+        "totalFunctions": 756,
+        "externalLibraries": 79,
+        "totalImports": 1435,
+        "apiResources": 19
+      },
+      "lizardAnalysis": {
+        "totalFunctions": 947,
+        "totalFiles": 158,
+        "totalCCN": 1558,
+        "totalNLOC": 20277,
+        "averageNLOC": 21.41,
+        "averageCCN": 1.65,
+        "maxCCN": 20,
+        "highComplexityCount": 2,
+        "highComplexityRate": 0.21,
+        "longFunctionCount": 0,
+        "rating": {
+          "stars": 5,
+          "starsText": "★★★★★",
+          "label": "Excellent"
+        }
+      }
+    },
+    {
+      "name": "Open FSC",
+      "path": "../open-fsc",
+      "timestamp": "2026-03-07T12:10:39.389Z",
+      "lineCountSource": "lizard_nloc",
+      "repositoryAnalysis": {
+        "codeFiles": 1072,
+        "specificationFiles": 394,
+        "totalFiles": 1466,
+        "fileCount": 1072,
+        "classes": 2425,
+        "publicMethods": 1129,
+        "totalFunctions": 1129,
+        "externalLibraries": 108,
+        "totalImports": 6482,
+        "apiResources": 39
+      },
+      "lizardAnalysis": {
+        "totalFunctions": 7495,
+        "totalFiles": 996,
+        "totalCCN": 18987,
+        "totalNLOC": 110540,
+        "averageNLOC": 14.75,
+        "averageCCN": 2.53,
+        "maxCCN": 60,
+        "highComplexityCount": 105,
+        "highComplexityRate": 1.4,
+        "longFunctionCount": 0,
+        "rating": {
+          "stars": 3,
+          "starsText": "★★★☆☆",
+          "label": "Fair"
+        }
+      }
+    },
+    {
+      "name": "OpenNotificaties",
+      "path": "../open-notificaties",
+      "timestamp": "2026-03-07T12:10:41.825Z",
+      "lineCountSource": "lizard_nloc",
+      "repositoryAnalysis": {
+        "codeFiles": 147,
+        "specificationFiles": 45,
+        "totalFiles": 192,
+        "fileCount": 147,
+        "classes": 193,
+        "publicMethods": 279,
+        "totalFunctions": 279,
+        "externalLibraries": 58,
+        "totalImports": 548,
+        "apiResources": 17
+      },
+      "lizardAnalysis": {
+        "totalFunctions": 337,
+        "totalFiles": 73,
+        "totalCCN": 587,
+        "totalNLOC": 5802,
+        "averageNLOC": 17.22,
+        "averageCCN": 1.74,
+        "maxCCN": 13,
+        "highComplexityCount": 0,
+        "highComplexityRate": 0,
+        "longFunctionCount": 0,
+        "rating": {
+          "stars": 5,
+          "starsText": "★★★★★",
+          "label": "Excellent"
+        }
+      }
+    },
+    {
+      "name": "VNG Selectielijst",
+      "path": "../vng-selectielijst",
+      "timestamp": "2026-03-07T12:10:42.850Z",
+      "lineCountSource": "lizard_nloc",
+      "repositoryAnalysis": {
+        "codeFiles": 66,
+        "specificationFiles": 27,
+        "totalFiles": 93,
+        "fileCount": 66,
+        "classes": 46,
+        "publicMethods": 63,
+        "totalFunctions": 63,
+        "externalLibraries": 20,
+        "totalImports": 147,
+        "apiResources": 6
+      },
+      "lizardAnalysis": {
+        "totalFunctions": 71,
+        "totalFiles": 22,
+        "totalCCN": 110,
+        "totalNLOC": 641,
+        "averageNLOC": 9.03,
+        "averageCCN": 1.55,
+        "maxCCN": 7,
+        "highComplexityCount": 0,
+        "highComplexityRate": 0,
+        "longFunctionCount": 0,
+        "rating": {
+          "stars": 5,
+          "starsText": "★★★★★",
+          "label": "Excellent"
+        }
+      }
+    },
+    {
+      "name": "Referentielijsten",
+      "path": "../referentielijsten",
+      "timestamp": "2026-03-07T12:10:44.131Z",
+      "lineCountSource": "lizard_nloc",
+      "repositoryAnalysis": {
+        "codeFiles": 84,
+        "specificationFiles": 29,
+        "totalFiles": 113,
+        "fileCount": 84,
+        "classes": 62,
+        "publicMethods": 104,
+        "totalFunctions": 104,
+        "externalLibraries": 40,
+        "totalImports": 261,
+        "apiResources": 6
+      },
+      "lizardAnalysis": {
+        "totalFunctions": 129,
+        "totalFiles": 43,
+        "totalCCN": 207,
+        "totalNLOC": 1164,
+        "averageNLOC": 9.02,
+        "averageCCN": 1.6,
+        "maxCCN": 14,
+        "highComplexityCount": 0,
+        "highComplexityRate": 0,
+        "longFunctionCount": 0,
+        "rating": {
+          "stars": 5,
+          "starsText": "★★★★★",
+          "label": "Excellent"
+        }
+      }
+    },
+    {
+      "name": "OpenProduct",
+      "path": "../open-product",
+      "timestamp": "2026-03-07T12:10:49.184Z",
+      "lineCountSource": "lizard_nloc",
+      "repositoryAnalysis": {
+        "codeFiles": 327,
+        "specificationFiles": 46,
+        "totalFiles": 373,
+        "fileCount": 327,
+        "classes": 397,
+        "publicMethods": 950,
+        "totalFunctions": 950,
+        "externalLibraries": 77,
+        "totalImports": 1561,
+        "apiResources": 23
+      },
+      "lizardAnalysis": {
+        "totalFunctions": 1108,
+        "totalFiles": 173,
+        "totalCCN": 1709,
+        "totalNLOC": 15081,
+        "averageNLOC": 13.61,
+        "averageCCN": 1.54,
+        "maxCCN": 24,
+        "highComplexityCount": 1,
+        "highComplexityRate": 0.09,
+        "longFunctionCount": 0,
+        "rating": {
+          "stars": 5,
+          "starsText": "★★★★★",
+          "label": "Excellent"
+        }
+      }
+    },
+    {
+      "name": "OpenFormulieren",
+      "path": "../open-forms",
+      "timestamp": "2026-03-07T12:11:31.912Z",
+      "lineCountSource": "lizard_nloc",
+      "repositoryAnalysis": {
+        "codeFiles": 2421,
+        "specificationFiles": 713,
+        "totalFiles": 3134,
+        "fileCount": 2421,
+        "classes": 2895,
+        "publicMethods": 6099,
+        "totalFunctions": 6099,
+        "externalLibraries": 225,
+        "totalImports": 13389,
+        "apiResources": 77
+      },
+      "lizardAnalysis": {
+        "totalFunctions": 9449,
+        "totalFiles": 1587,
+        "totalCCN": 16456,
+        "totalNLOC": 168207,
+        "averageNLOC": 17.8,
+        "averageCCN": 1.74,
+        "maxCCN": 55,
+        "highComplexityCount": 25,
+        "highComplexityRate": 0.26,
+        "longFunctionCount": 0,
+        "rating": {
+          "stars": 4,
+          "starsText": "★★★★☆",
+          "label": "Good"
+        }
+      }
+    },
+    {
+      "name": "Openregister",
+      "path": "../openregister",
+      "timestamp": "2026-03-07T12:11:57.276Z",
+      "lineCountSource": "lizard_nloc",
+      "repositoryAnalysis": {
+        "codeFiles": 454,
+        "specificationFiles": 59,
+        "totalFiles": 513,
+        "fileCount": 454,
+        "classes": 522,
+        "publicMethods": 2377,
+        "totalFunctions": 2377,
+        "externalLibraries": 24,
+        "totalImports": 221,
+        "apiResources": 0
+      },
+      "lizardAnalysis": {
+        "totalFunctions": 5212,
+        "totalFiles": 471,
+        "totalCCN": 24919,
+        "totalNLOC": 105499,
+        "averageNLOC": 20.24,
+        "averageCCN": 4.78,
+        "maxCCN": 96,
+        "highComplexityCount": 314,
+        "highComplexityRate": 6.02,
+        "longFunctionCount": 0,
+        "rating": {
+          "stars": 2,
+          "starsText": "★★☆☆☆",
+          "label": "Risky"
+        }
+      }
+    },
+    {
+      "name": "GZAC Frontend",
+      "path": "../gzac-frontend-template",
+      "timestamp": "2026-03-07T12:11:58.198Z",
+      "lineCountSource": "lizard_nloc",
+      "repositoryAnalysis": {
+        "codeFiles": 14,
+        "specificationFiles": 15,
+        "totalFiles": 29,
+        "fileCount": 14,
+        "classes": 4,
+        "publicMethods": 911,
+        "totalFunctions": 911,
+        "externalLibraries": 16,
+        "totalImports": 91,
+        "apiResources": 1
+      },
+      "lizardAnalysis": {
+        "totalFunctions": 179,
+        "totalFiles": 9,
+        "totalCCN": 333,
+        "totalNLOC": 237,
+        "averageNLOC": 1.32,
+        "averageCCN": 1.86,
+        "maxCCN": 11,
+        "highComplexityCount": 0,
+        "highComplexityRate": 0,
+        "longFunctionCount": 0,
+        "rating": {
+          "stars": 5,
+          "starsText": "★★★★★",
+          "label": "Excellent"
+        }
+      }
+    },
+    {
+      "name": "GZAC Backend",
+      "path": "../gzac-backend-template",
+      "timestamp": "2026-03-07T12:11:58.495Z",
+      "lineCountSource": "lizard_nloc",
+      "repositoryAnalysis": {
+        "codeFiles": 5,
+        "specificationFiles": 5,
+        "totalFiles": 10,
+        "fileCount": 5,
+        "classes": 1,
+        "publicMethods": 2,
+        "totalFunctions": 2,
+        "externalLibraries": 3,
+        "totalImports": 9,
+        "apiResources": 0
+      },
+      "lizardAnalysis": {
+        "totalFunctions": 4,
+        "totalFiles": 3,
+        "totalCCN": 5,
+        "totalNLOC": 44,
+        "averageNLOC": 11,
+        "averageCCN": 1.25,
+        "maxCCN": 2,
+        "highComplexityCount": 0,
+        "highComplexityRate": 0,
+        "longFunctionCount": 0,
+        "rating": {
+          "stars": 5,
+          "starsText": "★★★★★",
+          "label": "Excellent"
+        }
+      }
+    },
+    {
+      "name": "Valtimo",
+      "path": "../valtimo",
+      "timestamp": "2026-03-07T12:13:42.835Z",
+      "lineCountSource": "lizard_nloc",
+      "repositoryAnalysis": {
+        "codeFiles": 5115,
+        "specificationFiles": 1584,
+        "totalFiles": 6699,
+        "fileCount": 5115,
+        "classes": 4682,
+        "publicMethods": 9532,
+        "totalFunctions": 9532,
+        "externalLibraries": 102,
+        "totalImports": 37352,
+        "apiResources": 15
+      },
+      "lizardAnalysis": {
+        "totalFunctions": 15228,
+        "totalFiles": 3029,
+        "totalCCN": 26362,
+        "totalNLOC": 145566,
+        "averageNLOC": 9.56,
+        "averageCCN": 1.73,
+        "maxCCN": 3591,
+        "highComplexityCount": 14,
+        "highComplexityRate": 0.09,
+        "longFunctionCount": 1,
+        "rating": {
+          "stars": 3,
+          "starsText": "★★★☆☆",
+          "label": "Fair"
+        }
+      }
+    }
+  ],
+  "summary": {
+    "totalNLOC": 684455,
+    "totalClasses": 14015,
+    "totalExternalLibraries": 1054,
+    "totalAPIs": 367,
+    "totalFunctions": 46713,
+    "totalHighComplexityFunctions": 472,
+    "highComplexityRate": 1.01,
+    "maxCCN": 3591,
+    "averageComplexity": 2.18,
+    "complexityRating": "★★★☆☆ Fair",
+    "complexityRatingLabel": "Fair",
+    "complexityStars": 3,
+    "complexitySource": "Lizard CCN + %CCN>15",
+    "highComplexityThreshold": 15,
+    "longFunctionNlocThreshold": 1000
+  },
+  "ratingConfig": {
+    "source": "C:\\Workspace\\RepoAnalyzer\\scripts\\lizard-rating-config.json",
+    "highComplexityThreshold": 15,
+    "longFunctionNlocThreshold": 1000,
+    "starRules": [
+      {
+        "stars": 5,
+        "maxAverageCCN": 2,
+        "maxHighComplexityRate": 1,
+        "label": "Excellent"
+      },
+      {
+        "stars": 4,
+        "maxAverageCCN": 3.5,
+        "maxHighComplexityRate": 3,
+        "label": "Good"
+      },
+      {
+        "stars": 3,
+        "maxAverageCCN": 5.5,
+        "maxHighComplexityRate": 7,
+        "label": "Fair"
+      },
+      {
+        "stars": 2,
+        "maxAverageCCN": 8,
+        "maxHighComplexityRate": 12,
+        "label": "Risky"
+      },
+      {
+        "stars": 1,
+        "maxAverageCCN": null,
+        "maxHighComplexityRate": null,
+        "label": "Critical"
+      }
+    ],
+    "guardrails": {
+      "subtractOneStarAtMaxCCN": 50,
+      "capAtStarsWhenMaxCCNAtLeast": {
+        "maxCCN": 100,
+        "maxStars": 3
+      }
+    }
+  }
+}
