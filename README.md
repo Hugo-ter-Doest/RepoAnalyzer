@@ -59,6 +59,14 @@ For hybrid complexity analysis:
 python -m pip install lizard
 ```
 
+## Testing
+
+Run the Jasmine test suite:
+
+```bash
+npm test
+```
+
 ## Usage
 
 ### Analyze a Single Repository
